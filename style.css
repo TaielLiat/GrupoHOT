@@ -1,0 +1,28 @@
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+/* The image used */
+background-image: url(https://happylearning.tv/wp-content/uploads/2017/11/portada_seccion_juegos-01.png) ;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.vdivide [class*='col-6']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
