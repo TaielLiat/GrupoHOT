@@ -24,6 +24,20 @@ body {
     margin: auto;
 }
 
+.inputTexto input, textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+
 form {
     width: 600 px;
     margin: auto;
@@ -58,8 +72,9 @@ textarea {
 }
 #boton {
     background: greenyellow;
-    color: hotpink;
+    color: darkred;
     padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #boton:hover {
     cursor: pointer;
