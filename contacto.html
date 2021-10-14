@@ -10,13 +10,14 @@
             <form action="">
                 <h2>CONTACTO</h2>
                     <div class="textboxes">
-                        <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
-                        <input type="text" name="Email" placeholder="Email"><br>
-                        <input type="text" name="Telefono" placeholder="Telefono"><br>
-                        <textarea name="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
-                        <input type="button" value="ENVIAR" id="boton">
+                        <input type="text" id="nomYAp" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
+                        <input type="text" id="Email" name="Email" placeholder="Email"><br>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+                        <textarea name="Comentario" id="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
+                        <input type="submit" onclick= 'return enviarFormulario();' value="ENVIAR" id="boton">
                     </div>
-                </form>
+             </form>
         </div>
+    <script src="contacto.js"></script>
     </body>
 </html>
