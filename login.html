@@ -3,24 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Login basico</title>
-	<script type="text/javascript">
-		function validar()
-		{
-			var usuario = document.getElementById("usuario").value;
-			var Contraseña = document.getElementById("pass").value;	
-
-			if(usuario == "usuario" && Contraseña == "1234")
-			{
-				alert(window.location.href = 'https://www.ole.com.ar')
-			}
-			else
-			{
-				alert("Verifique sus credenciales");
-			}
-		}
-
-
-	</script>
+	<script src="login.js"></script>
 	<link rel="stylesheet" href="style.css"> 
 </head>
 <body>
@@ -35,7 +18,7 @@
 			<input type="password" name="pass" required="" id="pass">
 			<label for="">Contraseña</label>
 		  </div>
-		  <input type="submit" value="Ingresar" name="Ingresa" id="btnIngresaa" onclick="validar()">
+		  <input type="submit" value="Ingresar" onclick="validar()">
 		  <p><a href="Registro.html">¿No tiene una cuenta?</a></p>
 	  </form>
   </div>
