@@ -72,10 +72,13 @@ textarea {
 }
 #boton {
     background: greenyellow;
-    color: darkred;
-    padding: 20px;
+    color: rgb(3, 0, 0);
+    padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;    
 }
+
 #boton:hover {
     cursor: pointer;
 }
