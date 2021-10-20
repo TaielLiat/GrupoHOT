@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="estilosContacto.css">
-        <title>Contacto</title>
-    </head>
-    <body>
-        <div class="box">
-            <form action="">
-                <h2>CONTACTO</h2>
-                    <div class="textboxes">
-                        <div class="inputTexto">
-                            <input type="text" id="nomYAp" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
-                        </div>
-                        <div id = 'errorNombreYAp'> 
 
-                        </div>
-                        <div class="inputTexto">
-                            <input type="text" id="Email" name="Email" placeholder="Email"><br>
-                        </div>
-                        <div id = 'errorEmail'>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilosContacto.css">
+    <title>Contacto</title>
+</head>
 
-                        </div>
-                        <div class="inputTexto">
-                            <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
-                        </div>
-                        <div id = 'errorTelefono'>
+<body>
+    <div class="box">
+        <form action="">
+            <h2>CONTACTO</h2>
+            <div class="textboxes">
+                <div class="inputTexto">
+                    <input type="text" id="nomYAp" name="Nombre y Apellido" placeholder="Nombre y Apellido"><br>
+                </div>
+                <div id='errorNombreYAp'>
 
-                        </div>
-                        <div class="inputTexto">
-                            <textarea name="Comentario" id="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
-                        </div>
-                        <div id = 'errorComentario'>
-                            
-                        </div>
-                        <input type="submit" onclick= 'return enviarFormulario();' value="ENVIAR" id="boton">
-                    </div>
-             </form>
-        </div>
+                </div>
+                <div class="inputTexto">
+                    <input type="text" id="Email" name="Email" placeholder="Email"><br>
+                </div>
+                <div id='errorEmail'>
 
-        
-        <div id="modal_container" class="modal-container">
-          <div class="modal">
+                </div>
+                <div class="inputTexto">
+                    <input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br>
+                </div>
+                <div id='errorTelefono'>
+
+                </div>
+                <div class="inputTexto">
+                    <textarea name="Comentario" id="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
+                </div>
+                <div id='errorComentario'>
+
+                </div>
+                <input type="submit" onclick='return enviarFormulario();' value="ENVIAR" id="boton">
+            </div>
+        </form>
+    </div>
+
+
+    <div id="modal_container" class="modal-container">
+        <div class="modal">
             <h1>Ventana Modal</h1>
             <p>
-              ¿Esta seguro que desea enviar el comentario?
+                ¿Esta seguro que desea enviar el comentario?
             </p>
             <button id="send">SI</button>
             <button id="close">NO</button>
-          </div>
         </div>
+    </div>
     <script src="contacto.js"></script>
-    </body>
+</body>
+
 </html>

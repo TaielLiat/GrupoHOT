@@ -33,8 +33,8 @@ function enviarFormulario() {
         mostrarModal = false
     }
 
-    if(mostrarModal) {
-        modal_container.classList.add('show'); 
+    if (mostrarModal) {
+        modal_container.classList.add('show');
     }
 
     return false;
@@ -45,9 +45,9 @@ const modal_container = document.getElementById('modal_container');
 const boton_close = document.getElementById('close');
 
 boton_close.addEventListener('click', () => {
-  modal_container.classList.remove('show');
+    modal_container.classList.remove('show');
 });
 
 boton_enviar.addEventListener('click', () => {
     //aca irian las acciones que ocurririan en el caso de presionar "si"
-  });
+});

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="producto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="codigo.js"></script>
+    <title>Borderlands 2</title>
+</head>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+
+<body style="background-color: rgb(26, 26, 26); font-family: sans-serif;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
+                <a href="./HOME.html #ofertas" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
+                <a href="./HOME.html #recomendados" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
+                <a href="./HOME.html #todos" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
+
+
+                <!-- Listas -->
+
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Categorias
+              </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="list-unstyled">
+
+                                <li><a href="# " class="link-dark rounded ">Free to play</a></li>
+                                <li><a href="#" class="link-dark rounded ">Acción</a></li>
+                                <li><a href="# " class="link-dark rounded ">Aventuras</a></li>
+                                <li><a href="# " class="link-dark rounded ">Carreras </a></li>
+                                <li><a href="# " class="link-dark rounded ">Deportes</a></li>
+                                <li><a href="# " class="link-dark rounded ">Estrategia</a></li>
+                                <li><a href="# " class="link-dark rounded ">Multijugador masivo</a></li>
+                                <li><a href="# " class="link-dark rounded ">Rol</a></li>
+                                <li><a href="# " class="link-dark rounded ">Simuladores</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <a href="./HOME.html #contacto" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Listas -->
+            </div>
+            <div id="main ">
+                <button class="openbtn " onclick="openNav() ">☰ </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarCollapse ">
+                <ul class="navbar-nav  mb-2 mb-md-0 ">
+                    <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
+
+                </ul>
+                <form class="d-flex " style="padding-left: 30%;">
+
+                    <input class=" form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-success " type="submit ">Search</button>
+                </form>
+                <!----------------- LOGIN ----------------->
+                <button class="btn btn-outline-success" onclick="document.getElementById('id01').style.display='inline-block'" style="width:auto; margin-left: 25%;">Login</button>
+
+                <div id="id01" class="modal-login">
+
+                    <form class="modal-content-login animate-login" action="/action_page.php" method="post">
+                        <div class="imgcontainer-login">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close-login" title="Close Modal">&times;</span>
+                            <img src="imagenes/usuario.jpg" alt="Avatar" class="avatar-login">
+                        </div>
+
+                        <div class="container-login">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn-login">Cancel</button>
+                            <span class="psw-login">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+                </div>
+
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('id01');
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+
+                <!--------------------- SIGN UP----------->
+                <button class="btn btn-outline-success" onclick="document.getElementById('id02').style.display='inline-block'" style="width:auto; margin-left: 1%;">Sign Up</button>
+
+                <div id="id02" class="modal-login">
+
+                    <form class="modal-content-login animate-login" action="/action_page.php" method="post">
+                        <div class="imgcontainer-login">
+                            <span onclick="document.getElementById('id02').style.display='none'" class="close-login" title="Close Modal">&times;</span>
+                            <img src="imagenes/usuario.jpg" alt="Avatar" class="avatar-login">
+                        </div>
+
+                        <div class="container-login">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+
+                            <button type="submit">Login</button>
+                            <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn-login">Cancel</button>
+                            <span class="psw-login">Forgot <a href="#">password?</a></span>
+                        </div>
+                    </form>
+                </div>
+
+                <script>
+                    // Get the modal
+                    var modal = document.getElementById('id02');
+
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                        if (event.target == modal) {
+                            modal.style.display = "none";
+                        }
+                    }
+                </script>
+    </nav>
+</body>
+
+<body>
+    <!------------------VIDEO-------------->
+    <script type="text/javascript ">
+        function video(url) {
+            document.getElementById("slider ").src = url;
+        }
+    </script>
+
+    <section>
+        <video id="slider " autoplay loop muted> 
+        <source src="imagenes/Videos/Borderlands2.mp4 " type="video/mp4 ">
+        </video>
+    </section>
+    <!------------------VIDEO-------------->
+    <img src=" imagenes/borderlands.jpg " style="width: 30%; max-width: 30; margin-left: 3%; margin-top: -25%; position: FLEX; ">
+    <!------------------DATOS-------------->
+    <div class="rightcol ">
+        <div class="datazos " style="border-radius: 15px; ">
+            <div style="margin-bottom: 1.5%;font-size: 18px; ">
+                <b> TÍTULO: </b> Borderlands 2 <br>
+            </div>
+            <div style="margin-bottom: 1.5%; font-size: 18px; ">
+                <b> GÉNERO:</b> Accion, MMO, Rol <br>
+            </div>
+            <div style="margin-bottom: 1.5%; font-size: 18px; ">
+                <b> DESARROLLADOR:</b> <a href="https://www.gearboxsoftware.com ">Gearbox Software</a>, <a href=https://support.aspyr.com/hc/en-us/sections/360004031491-Mac>Aspyr (Mac)</a>, <a href="https://support.aspyr.com/hc/en-us/sections/360004024392-Linux ">Aspyr (Linux)</a>
+            </div>
+            <div style="margin-bottom: 1.5%; font-size: 18px; ">
+                <b> EDITOR:</b> <a href="https://store.steampowered.com/publisher/2K "> 2K </a>, <a href=https://support.aspyr.com/hc/en-us/sections/360004031491-Mac>Aspyr (Mac)</a>, <a href="https://support.aspyr.com/hc/en-us/sections/360004024392-Linux ">Aspyr (Linux)</a>
+            </div>
+            <div style="margin-bottom: 1.5%; font-size: 18px; ">
+                <b> FRANQUICIA:</b> Borderlands <br>
+            </div>
+            <div style="margin-bottom: 1.5%; font-size: 18px; ">
+                <b> FECHA DE LANZAMIENTO:</b> 20 SEPTIEMBRE 2012 <br>
+            </div>
+        </div>
+        <!------------------DATOS-------------->
+        <!------------------DESCRIPCION-------------->
+        <div style="color: white; margin-left: 36.7%; margin-top: -6%; ">
+            <p style="font-size: 20px;font-family: sans-serif; "> ACERCA DE ESTE JUEGO </p>
+            <hr style="color: rgb(204, 204, 204); margin-right: 19%; margin-top: -1%; margin-bottom: 1%; ">
+        </div>
+
+        <p style="font-size: 18px; margin-left: 36.7%;margin-right: 11%; color: rgb(165, 165, 165); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">
+            Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos
+            con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.
+        </p>
+        <!------------------DESCRIPCION-------------->
+        <!------------------RESE;AS-------------->
+        <div style="color: white; margin-left: 36.7%; margin-top: 3%; ">
+            <p style="font-size: 20px;font-family: sans-serif; "> RESEÑAS </p>
+            <hr style="color: rgb(3, 3, 7); margin-right: 19%; margin-top: -1%; margin-bottom: 2%; ">
+        </div>
+        <div style="font-size: 18px; margin-left: 36.7%; ;margin-right: 13%; color: rgb(165, 165, 165); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">
+            <div style="margin-bottom: 1.5%; ">
+                “Prepárate para nivelar. Prepárate para saquear. Prepárate para perderte en el hilarante, extraño y maravilloso mundo de Pandora.” 9/10 – <a href=https://www.ign.com/articles/2012/09/14/borderlands-2-review> IGN</a></div><br>
+            <div style="margin-bottom: 1.5%; ">
+                “Borderlands 2 se destaca como la obra magna de Gearbox, y uno de los juegos más memorables y divertidos en los que he estado.” 4.5/5 – <a href="http://pc.gamespy.com/pc/borderlands-2/1226112p1.html "> GameSpy</a></div> <br>
+            <div style="margin-bottom: 1.5%; ">
+                “Este es el juego, y hace que Borderlands sea persistentemente fresco de una manera que otros shooters nunca lo son.. ” 90/100 – <a href="https://www.pcgamer.com/borderlands-2-review/ "> PC Gamer</a></div> <br>
+        </div>
+
+        <div class="sysreq_contents " style=" margin-bottom: 3%; padding-bottom: 2%; margin-left:1%; margin-right: 3%; color: #b6b6b6;background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(34, 34, 34, 0.5) 80%); padding-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-top: 17%; border-radius: 15px; font-size: 20px; ">
+            <div class="game_area_sys_req sysreq_content active " data-os="win ">
+                <div class="game_area_sys_req_leftCol ">
+                    <p style="margin-left: 2%; font-size: 30px; margin-bottom: 10px; "> WINDOWS</p>
+                    <ul>
+                        <strong>Mínimos:</strong><br>
+                        <ul class="bb_ul ">
+                            <li><strong>OS:</strong> Windows XP SP3<br> </li>
+                            <li><strong>Procesador:</strong> 2.4 GHz Dual Core Procesador<br> </li>
+                            <li><strong>Memoria:</strong> 2 GB(XP)/ 2 GB(Vista)<br> </li>
+                            <li><strong>Espacio en disco duro:</strong> 13 GB free<br> </li>
+                            <li><strong>Memoria de video:</strong> 256 MB<br> </li>
+                            <li><strong>Tarjeta de video:</strong> NVIDIA GeForce 8500 /ATI Radeon HD 2600<br> </li>
+                            <li><strong>Sonido:</strong> DirectX 9.0c Compatible<br> </li>
+                            <li><strong>Otros requerimientos:</strong>La instalación inicial requiere una conexión a Internet única para la autenticación de Steam; Las instalaciones de software necesarias (incluidas con el juego) incluyen Steam Client, DirectX
+                                9, Microsoft.NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010 y controladores de CPU AMD (solo XP/solo AMD)</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="game_area_sys_req_rightCol ">
+                    <ul>
+                        <strong>Recomendados:</strong><br>
+                        <ul class="bb_ul ">
+                            <li><strong>OS:</strong> Windows XP SP3/Vista/Win 7<br> </li>
+                            <li><strong>Procesador:</strong> 2.3 GHz Quad Core Procesador<br> </li>
+                            <li><strong>Memoria:</strong> 2 GB<br> </li>
+                            <li><strong>Espacio en disco duro:</strong> 20 GB free<br> </li>
+                            <li><strong>Video Memoria:</strong> 512MB<br> </li>
+                            <li><strong>Tarjeta de video:</strong> NVIDIA GeForce GTX 560 / ATI Radeon HD 5850<br> </li>
+                            <li><strong>Sound:</strong> DirectX 9.0c Compatible<br> </li>
+                            <li><strong>Otros requerimientos:</strong>La instalación inicial requiere una conexión a Internet única para la autenticación de Steam; Las instalaciones de software necesarias (incluidas con el juego) incluyen Steam Client, DirectX
+                                9, Microsoft.NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010 y controladores de CPU AMD (solo XP/solo AMD)</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div style="clear: both; "></div>
+            </div>
+            <hr style="margin-top: 3%; margin-bottom: 1%; margin-left: 2%; margin-right: 2%; ">
+            <div class="game_area_sys_req sysreq_content " data-os="mac ">
+                <div class="game_area_sys_req_leftCol ">
+                    <p style="margin-left: 2%; font-size: 30px; margin-bottom: 10px; "> MAC</p>
+                    <ul>
+                        <strong>Mínimos:</strong><br>
+                        <ul class="bb_ul ">
+                            <li><strong>OS:</strong> 10.12 (Sierra) <br><br> </li>
+                            <li><strong>Procesador:</strong> 2.4 GHz Intel Core 2 Duo (Dual-Core)<br> </li>
+                            <li><strong>Memoria:</strong> 4 GB RAM<br> </li>
+                            <li><strong>Espacio en disco duro:</strong> 13 GB<br> </li>
+                            <li><strong>Video Memoria:</strong> 256 MB<br> </li>
+                            <li><strong>Tarjeta de video:</strong> ATI Radeon HD 2600 / NVidia Geforce 8800/ Intel HD 3000<br> </li>
+                            <li><strong>Adicional:</strong> Ratón y teclado Macintosh. Borderlands 2 es compatible con el gamepad con cable Xbox 360 Y el mando inalámbrico PlayStation 3 Dualshock 3 <br> </li>
+                            <li><strong>Atencion:</strong> Es posible que Mac y PC no estén sincronizados durante las actualizaciones. Dentro de este corto período de tiempo, los usuarios de Mac solo podrán jugar a otros usuarios de Mac.. <br> </li>
+                            <li><strong>Atencion:</strong> Este juego no es compatible con volúmenes formateados como Mac OS Extended (con mayúsculas y minúsculas)<br> </li>
+                            <li><strong>Atencion:</strong> Los siguientes chipsets de vídeo no son compatibles con Borderlands 2: ATI RADEON HD 2400, NVIDIA 8600m, NVIDIA 9400m, 9600m, Intel Integrated GMA 950, Intel Integrated x3100<br><br><strong>Atencion:</strong>                                La versión para Mac solo está disponible en inglés, francés, italiano, alemán y español.</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="game_area_sys_req_rightCol ">
+                    <ul>
+                        <strong>Recomendados:</strong><br>
+                        <ul class="bb_ul ">
+                            <li><strong>OS:</strong> 10.12 (Sierra)<br> </li>
+                            <li><strong>Procesador:</strong> 2.2GHz Intel Quad Core<br> </li>
+                            <li><strong>Memoria:</strong> 4 GB RAM<br> </li>
+                            <li><strong>Video Memoria:</strong> 512 MB<br> </li>
+                            <li><strong>Tarjeta de video:</strong> ATI Radeon HD 5750 / NVidia Geforce 650M / Intel HD 4000</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div style="clear: both; "></div>
+            </div>
+            <hr style="margin-top: 3%; margin-bottom: 1%; margin-left: 2%; margin-right: 2%; ">
+            <p style="margin-left: 2%; font-size: 30px; margin-bottom: 10px; "> LINUX </p>
+            <div class="game_area_sys_req sysreq_content " data-os="linux ">
+                <div class="game_area_sys_req_full ">
+                    <ul>
+                        <strong>Sistema operativo:</strong> SteamOS, Ubuntu 14.04 <br><strong>CPU Procesador:</strong> Intel Core 2 Quad, AMD Phenom II X4<br><strong>CPU Velocidad:</strong> 2.4GHz <br><strong>Memoria:</strong> 4 GB RAM <br><strong>Espacio en disco duro:</strong>                        13 GB <br><strong>Tarjeta de video (NVidia):</strong> Geforce 260<br><strong>Video Memoria (VRam):</strong> 1GB<br><br><strong> Atencion:</strong> ¿No cumple con los requisitos anteriores? Eso no significa su configuración no ejecutará
+                        Borderlands 2. Visite la página de la comunidad de Borderlands 2 para compartir su experiencia con otros jugadores de Linux y aprender cómo enviar errores a Aspyr. Sus comentarios nos ayudarán a mejorar Borderlands 2 Linux y las
+                        futuras AAA Linux actualizaciones!
+                        <br><br><strong>Atencion:</strong> Los chipsets de vídeo intel integrados y los chipsets ATI no son compatibles actualmente con Borderlands 2 Linux.<br><strong>Atencion:</strong>La versión de Linux sólo está disponible en inglés,
+                        francés, Italiano, alemán y español.<br></ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!---
+        <script type="text/javascript ">
+            $J(function() {
+                var $Tabs = $J('.sysreq_tab');
+                var $Content = $J('.sysreq_content');
+
+                $Tabs.click(function() {
+                    var $Tab = $J(this);
+                    $Tabs.removeClass('active');
+                    $Tab.addClass('active');
+
+                    $Content.removeClass('active');
+                    $Content.filter('[data-os=' + $Tab.data('os') + ']').addClass('active');
+
+                    $Content.trigger('gamepage_autocollapse_expand');
+                });
+            });
+        </script>
+        --->
+    <!------------------RESE;AS-------------->
+    </div>
+</body>
+<!---------------- IDIOMAS DISPONIBLES----------------------->
+
+<div style=" margin-top: 2%; margin-left: 3%; background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(34, 34, 34, 0.5) 80%); padding: 1%; font-family: sans-serif; border-radius: 15px; position: absolute ">
+    <table class="game_language_options " cellpadding="0 " cellspacincg="0 ">
+        <tbody style="color: rgb(170, 170, 170); font-size: 20px; ">
+            <tr>
+                <th style="width: 94px; "></th>
+                <th class="checkcol ">Interfaz</th>
+                <th class="checkcol ">Voces</th>
+                <th class="checkcol ">Subtítulos</th>
+            </tr>
+
+            <tr class="unsupported ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Español - Latinoamérica </td>
+                <td colspan="3 ">
+                    No disponible </td>
+            </tr>
+            <tr class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Inglés </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Francés </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Alemán </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Italiano </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr style="display: none; " class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Japonés </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr style="display: none; " class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Español - España </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr style="display: none; " class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Coreano </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+            <tr style="display: none; " class=" ">
+                <td style="width: 94px; text-align: left " class="ellipsis ">
+                    Chino tradicional </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+                <td class="checkcol ">
+                </td>
+                <td class="checkcol ">
+                    <span>✔</span> </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <a class="all_languages " onclick="$J( 'table.game_language_options tr').show(); $J(this).hide(); return false ">Ver los 8 idiomas disponibles</a>
+</div>
+<!---------------- IDIOMAS DISPONIBLES----------------------->
+<!-----------------COMENTARIOS--------------------------->
+
+
+</html>

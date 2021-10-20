@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div id="modal_container" class="modal-container">
+        <div class="modal">
+            <h1>Ventana Modal</h1>
+            <p>
+                ¿Esta seguro que desea enviar el comentario?
+            </p>
+            <button id="send">SI</button>
+            <button id="close">NO</button>
+        </div>
+    </div>
+    <script>
+        errorComentario.style.color = 'red'
+
+        function enviarFormulario() {
+            var mostrarModal = true;
+            if (nombreYApellido.value === null | nombreYApellido.value === '') {
+                errorNombreYAp.innerHTML = 'ingresa tu nombre y apellido';
+                mostrarModal = false;
+            }
+
+            if (Email.value === null | Email.value === '') {
+                errorEmail.innerHTML = 'ingresa tu email';
+                mostrarModal = false
+            }
+
+            if (Telefono.value === null | Telefono.value === '') {
+                errorTelefono.innerHTML = 'ingresa tu telefono';
+                mostrarModal = false
+            }
+
+            if (Comentario.value === null | Comentario.value === '') {
+                errorComentario.innerHTML = 'ingresa un comentario';
+                mostrarModal = false
+            }
+
+            if (mostrarModal) {
+                modal_container.classList.add('show');
+            }
+
+            return false;
+        }
+
+        const open = document.getElementById('enviar');
+        const modal_container = document.getElementById('modal_container');
+        const close = document.getElementById('close');
+
+        close.addEventListener('click', () => {
+            modal_container.classList.remove('show');
+        });
+    </script>
+
+
+</body>
+
+</html>
