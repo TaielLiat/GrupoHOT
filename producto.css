@@ -1,5 +1,125 @@
             @charset "UTF-8";
+            .label {
+                color: rgb(187, 187, 187);
+                position: absolute;
+                margin-left: 13%;
+                display: flex;
+                font-size: 16px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            
+            .label span {
+                margin-bottom: 10%;
+                padding: 3px;
+                border-radius: 5px;
+                margin-left: 3%;
+                background-image: linear-gradient(to right, rgb(130 130 130 / 20%) 5%, rgba(46, 46, 46, 0.5) 60%);
+            }
+            
+            .etiqueta {
+                display: flex;
+                margin: 2%;
+                margin-bottom: 0;
+                margin-top: 1%;
+                padding: 10%;
+                flex-direction: row;
+                position: absolute;
+                list-style: none;
+            }
+            
+            .etiqueta li {
+                background-color: rgb(109, 109, 109);
+                border: 1px solid rgb(202, 202, 202);
+            }
+            
+            [type=button],
+            [type=reset],
+            [type=submit],
+            button {
+                -webkit-appearance: button;
+            }
+            
+             :root {
+                --bs-blue: #0d6efd;
+                --bs-indigo: #6610f2;
+                --bs-purple: #6f42c1;
+                --bs-pink: #d63384;
+                --bs-red: #dc3545;
+                --bs-orange: #fd7e14;
+                --bs-yellow: #ffc107;
+                --bs-green: #198754;
+                --bs-teal: #20c997;
+                --bs-cyan: #0dcaf0;
+                --bs-white: #fff;
+                --bs-gray: #6c757d;
+                --bs-gray-dark: #343a40;
+                --bs-gray-100: #f8f9fa;
+                --bs-gray-200: #e9ecef;
+                --bs-gray-300: #dee2e6;
+                --bs-gray-400: #ced4da;
+                --bs-gray-500: #adb5bd;
+                --bs-gray-600: #6c757d;
+                --bs-gray-700: #495057;
+                --bs-gray-800: #343a40;
+                --bs-gray-900: #212529;
+                --bs-primary: #0d6efd;
+                --bs-secondary: #6c757d;
+                --bs-success: #198754;
+                --bs-info: #0dcaf0;
+                --bs-warning: #ffc107;
+                --bs-danger: #dc3545;
+                --bs-light: #f8f9fa;
+                --bs-dark: #212529;
+                --bs-primary-rgb: 13, 110, 253;
+                --bs-secondary-rgb: 108, 117, 125;
+                --bs-success-rgb: 25, 135, 84;
+                --bs-info-rgb: 13, 202, 240;
+                --bs-warning-rgb: 255, 193, 7;
+                --bs-danger-rgb: 220, 53, 69;
+                --bs-light-rgb: 248, 249, 250;
+                --bs-dark-rgb: 33, 37, 41;
+                --bs-white-rgb: 255, 255, 255;
+                --bs-black-rgb: 0, 0, 0;
+                --bs-body-color-rgb: 33, 37, 41;
+                --bs-body-bg-rgb: 255, 255, 255;
+                --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+                --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+                --bs-body-font-family: var(--bs-font-sans-serif);
+                --bs-body-font-size: 1rem;
+                --bs-body-font-weight: 400;
+                --bs-body-line-height: 1.5;
+                --bs-body-color: #212529;
+                --bs-body-bg: #fff;
+            }
+            
+            .border-top {
+                border-top: 1px solid rgb(150, 150, 150)!important;
+            }
+            
+            .my-3 {
+                margin-top: 1rem!important;
+                margin-bottom: 1rem!important;
+            }
             /* COMENTARIOS */
+            
+            .btn-boton {
+                display: inline-block;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                text-align: center;
+                text-decoration: none;
+                vertical-align: middle;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+                padding: .375rem .75rem;
+                font-size: 1rem;
+                border-radius: .25rem;
+                transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+            }
             
             .row-COMENTARIOS {
                 margin-right: -12px;
@@ -97,16 +217,16 @@
             }
             
             .btn-primary {
-                color: #fff;
+                color: rgb(21, 255, 0);
                 background-color: #242424;
-                border-color: #09ff00 1px;
+                border: solid 1px rgb(0, 255, 21);
                 margin-right: 1.5%;
                 margin-top: 0.5%;
             }
             
             .btn-primary:hover {
-                color: rgb(0, 0, 0);
-                background-color: #15ff00;
+                color: rgb(255, 255, 255);
+                background-color: #096800;
                 border-color: #09ff00 1px;
                 margin-right: 1.5%;
                 margin-top: 0.5%;
@@ -196,7 +316,7 @@
             
             .form-group.fl_icon .icon {
                 position: absolute;
-                margin-top: 3px;
+                margin-top: 0.4%;
                 top: 1px;
                 width: 48px;
                 height: 48px;
@@ -482,7 +602,7 @@
             .discselect_tab.active {
                 background-color: #18222e;
                 color: #67c1f5;
-                cusor: default;
+                cursor: default;
             }
             
             .sysreq_tabs,
@@ -516,7 +636,8 @@
             }
             
             .sysreq_contents {
-                margin-top: 10px;
+                display: block;
+                margin-top: 16%;
             }
             
             .game_page_autocollapse_ctn.collapsed .game_page_autocollapse_fade {
@@ -595,19 +716,19 @@
             }
             
             .game_language_options th.checkcol {
-                text-align: left;
-                width: 70px;
+                width: 20px;
             }
             
             .game_language_options td {
                 color: #b1b1b1;
                 padding: 3px 0px 3px 0px;
                 text-align: center;
-                font-size: 20px;
+                font-size: 13px;
             }
             
             .game_language_options th {
-                font-size: 20px;
+                font-size: 14px;
+                padding: 3px;
                 color: #ffffff;
                 font-weight: normal;
             }
@@ -1114,32 +1235,6 @@
             
             .me-2 {
                 margin-right: .5rem!important
-            }
-            
-            .btn {
-                display: inline-block;
-                font-weight: 400;
-                line-height: 1.5;
-                color: #212529;
-                text-align: center;
-                text-decoration: none;
-                vertical-align: middle;
-                cursor: pointer;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                user-select: none;
-                background-color: transparent;
-                border: 1px solid transparent;
-                padding: .375rem .75rem;
-                font-size: 1rem;
-                border-radius: .25rem;
-                transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
-            }
-            
-            @media (prefers-reduced-motion:reduce) {
-                .btn {
-                    transition: none
-                }
             }
             
             .btn-outline-success {
