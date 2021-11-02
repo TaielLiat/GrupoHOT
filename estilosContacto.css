@@ -46,6 +46,10 @@ form {
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 7px;
+}
+
+
+.form_envio {
     background: rgba(0, 0, 0, .8);
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
 }
