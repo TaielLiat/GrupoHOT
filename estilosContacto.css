@@ -96,16 +96,6 @@ textarea {
     box-sizing: border-box;
 }
 
-body {
-    background-color: #edeef6;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-}
-
 button {
     background-color: greenyellow;
     border: 5;
@@ -136,7 +126,7 @@ button {
     opacity: 1;
 }
 
-.modal {
+.modal_contacto {
     background-color: whitesmoke;
     width: 600px;
     max-width: 100%;
@@ -146,6 +136,7 @@ button {
     text-align: center;
 }
 
+
 .modal h1 {
     margin: 0;
 }
@@ -153,4 +144,12 @@ button {
 .modal p {
     opacity: 0.7;
     font-size: 14px;
+}
+
+.box_redes {
+    display: block;
+}
+
+.pie_de_pagina {
+    background-color: rgb(39, 39, 39)!important;
 }
