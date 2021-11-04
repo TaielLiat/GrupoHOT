@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="producto23.css">
+    <link rel="stylesheet" href="boostrap.css">
+    <script src="codigo.js"></script>
+    <script src="main.js"></script>
+    <title>Rainbow Six Siege</title>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
+
+
+                <!-- Listas -->
+
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    Categorias
+                  </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="list-unstyled">
+
+                                <li><a href="# " class="link-dark rounded ">Free to play</a></li>
+                                <li><a href="#accion " class="link-dark rounded ">Acción</a></li>
+                                <li><a href="# " class="link-dark rounded ">Aventuras</a></li>
+                                <li><a href="# " class="link-dark rounded ">Carreras </a></li>
+                                <li><a href="# " class="link-dark rounded ">Deportes</a></li>
+                                <li><a href="# " class="link-dark rounded ">Estrategia</a></li>
+                                <li><a href="# " class="link-dark rounded ">Multijugador masivo</a></li>
+                                <li><a href="# " class="link-dark rounded ">Rol</a></li>
+                                <li><a href="# " class="link-dark rounded ">Simuladores</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <a href="#contacto" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Listas -->
+            </div>
+            <div id="main ">
+                <button class="openbtn " onclick="openNav() ">☰ </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarCollapse ">
+                <ul class="navbar-nav  mb-2 mb-md-0 ">
+                    <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
+                </ul>
+    </nav>
+</head>
+
+<body style="background-color: rgb(26, 26, 26); font-family: sans-serif;">
+    <div>
+        <!------------------IMAGEN-------------->
+        <div style="width: 30%;">
+            <img src=" imagenes/juego-uplay-tom-clancys-rainbow-six-siege-gold-edition-cover.jpg" style="width:100%; height:100%;; margin-left: 3%;">
+        </div>        
+        
+        <!------------------DESCRIPCION-------------->
+        <div style="color: white; margin-left: 36.7%; margin-top: -40%; width: 70%;">
+            <p style="font-size: 20px;font-family: sans-serif; "> ACERCA DE ESTE JUEGO </p>
+            <hr style="color: rgb(204, 204, 204); margin-right: 19%; margin-top: -1%; margin-bottom: 1%; ">
+            <p style="font-size: 18px;margin-right: 20%; color: rgb(165, 165, 165); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">
+                Domina el arte de la destrucción y el uso de dispositivos en Tom Clancy's Rainbow Six Siege. Enfréntate a un combate intenso de rango cercano altamente letal, con decisiones tácticas, juego en equipo y una acción explosiva en todo momento. Vive un nuevo estilo de tiroteos y estrategia nacida en el seno del rico legado de los anteriores juegos Tom Clancy's Rainbow Six. <br>
+                Embárcate en un nuevo tipo de asalto usando un nivel de destrucción y unos dispositivos nunca vistos.
+                En defensa, coordina tus acciones con tu equipo para transformar tu entorno en una fortaleza. Pon trampas, refuerza lugares y crea sistemas de defensa para evitar que el enemigo abra brecha.
+                En ataque, lidera tu grupo a través de estrechos pasillos, pasos de puerta reforzados y paredes con barricadas. Combina mapas tácticos, drones de vigilancia, acciones de rápel y otros movimientos para planificar, atacar y dominar cualquier situación.
+                
+                
+            </p>
+            
+        </div>
+        <div class="box-comentario">
+            <form action="" class="form_envio">
+                <h5>COMENTARIOS</h5>
+                <div class="textboxes">
+                    <div class="inputTexto">
+                        <input type="text" id="Email" name="Email" placeholder="Email"><br>
+                    </div>
+                    <div id='errorEmail'>
+
+                    </div>
+                    <div class="inputTexto">
+                        <textarea name="Comentario" id="Comentario" placeholder="Deje aqui su comentario"></textarea><br>
+                    </div>
+                    <div id='errorComentario'>
+    
+                    </div>
+                    <table>
+                        <tr>
+                            <td><div style="color: darkgrey;">Valoracion &nbsp</div></td>
+                            <td>
+                                <p class="clasificacion">
+                                    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                                    --><label for="radio1">★</label><!--
+                                    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                                    --><label for="radio2">★</label><!--
+                                    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                                    --><label for="radio3">★</label><!--
+                                    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                                    --><label for="radio4">★</label><!--
+                                    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                                    --><label for="radio5">★</label>
+                                  </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" onclick='return enviarComentario();' value="Enviar comentario" id="boton">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
