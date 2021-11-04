@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
 
 :root{
-  --bg:#334;
+  --bg:rgb(26, 26, 26);
   --orange:#1ff767;
   --border-color:rgba(255,255,255,.3);
   --background:rgba(0,0,0,.1);
