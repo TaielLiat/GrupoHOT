@@ -5,15 +5,11 @@ padding: 0;
 font-family: sans-serif;
 background: url("https://generacionxbox.com/wp-content/uploads/2017/07/xbox-digitales-generacion-xbox.png") ;
 background-size: cover;
-    
-
-
 }
 .caja {
-    position: absolute;
-    top: 50%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 400px;
     padding: 40px;
     background: rgba(0, 0, 0, .8);
@@ -70,3 +66,6 @@ background-size: cover;
     border-radius: 5px;
 }
 
+.pie_de_pagina {
+    background-color: rgb(39, 39, 39)!important;
+}
