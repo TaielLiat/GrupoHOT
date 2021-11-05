@@ -34,6 +34,7 @@ body.active{
   padding: 80px 7%;
   background: var(--bg);
   position: relative;
+  
 }
 
 .container .heading{
@@ -164,4 +165,8 @@ body.active{
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.pie_de_pagina {
+    background-color: rgb(39, 39, 39)!important;
 }
