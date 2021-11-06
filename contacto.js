@@ -16,29 +16,21 @@ function enviarFormulario() {
     if (nombreYApellido.value === null | nombreYApellido.value === '') {
         errorNombreYAp.innerHTML = 'ingresa tu nombre y apellido';
         mostrarModal = false;
-    } else {
-        errorNombreYAp.innerHTML = '';
     }
 
     if (Email.value === null | Email.value === '') {
         errorEmail.innerHTML = 'ingresa tu email';
         mostrarModal = false
-    } else {
-        errorEmail.innerHTML = '';
     }
 
     if (Telefono.value === null | Telefono.value === '') {
         errorTelefono.innerHTML = 'ingresa tu telefono';
         mostrarModal = false
-    } else {
-        errorTelefono.innerHTML = '';
     }
 
     if (Comentario.value === null | Comentario.value === '') {
         errorComentario.innerHTML = 'ingresa un comentario';
         mostrarModal = false
-    } else {
-        errorComentario.innerHTML = '';
     }
 
     if (mostrarModal) {

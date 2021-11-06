@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-seccion-productos.css">
-	<link rel="stylesheet" href="boostrap.css">
-	<script type="text/javascript" src="main.js"></script>
-    <title>Sección de Producto</title>
-	
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
-                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
-                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
-                <a href="./seccion-productos.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
+    <link rel="stylesheet" href="boostrap.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="./index.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
+            <a href="./index.html #ofertas" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
+            <a href="./index.html #recomendados" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
+            <a href="./seccion-productos.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
 
 
-                <!-- Listas -->
 
-                <ul class="list-unstyled ps-0">
-                    <li class="mb-1">
-                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+            <!-- Listas -->
+
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                    <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                     Categorias
                   </button>
-                        <div class="collapse show" id="home-collapse">
-                            <ul class="list-unstyled">
+                    <div class="collapse show" id="home-collapse">
+                        <ul class="list-unstyled">
 
-                                <li><a href="./producto6.html" class="link-dark rounded ">Free to play</a></li>
-                                <li><a href="./producto3.html" class="link-dark rounded ">Acción</a></li>
-                                <li><a href="./producto.html" class="link-dark rounded ">Aventuras</a></li>
-                                <li><a href="./producto10.html" class="link-dark rounded ">Carreras </a></li>
-                                <li><a href="./producto11.html " class="link-dark rounded ">Deportes</a></li>
-                                <li><a href="./producto9.html " class="link-dark rounded ">Estrategia</a></li>
-                                <li><a href="./producto7.html " class="link-dark rounded ">Multijugador masivo</a></li>
-                                <li><a href="./producto2.html" class="link-dark rounded ">Rol</a></li>
-                                <li><a href="./producto8.html" class="link-dark rounded ">Simuladores</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-
-                    <li class="border-top my-3"></li>
-                    <li class="mb-1">
-                        <a href="contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
-                    </li>
-                </ul>
-                <!-- Listas -->
-            </div>
-            <div id="main ">
-                <button class="openbtn " onclick="openNav() ">☰ </button>
-            </div>
-            <div class="collapse navbar-collapse " id="navbarCollapse ">
-                <ul class="navbar-nav  mb-2 mb-md-0 ">
-                    <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
-                </ul>
-    </nav>
+                            <li><a href="#" class="link-dark rounded ">Free to play</a></li>
+                            <li><a href="#" class="link-dark rounded ">Acción</a></li>
+                            <li><a href="#" class="link-dark rounded ">Aventuras</a></li>
+                            <li><a href="#" class="link-dark rounded ">Carreras </a></li>
+                            <li><a href="#" class="link-dark rounded ">Deportes</a></li>
+                            <li><a href="#" class="link-dark rounded ">Estrategia</a></li>
+                            <li><a href="#" class="link-dark rounded ">Multijugador masivo</a></li>
+                            <li><a href="#" class="link-dark rounded ">Rol</a></li>
+                            <li><a href="#" class="link-dark rounded ">Simuladores</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="border-top my-3"></li>
+                <li class="mb-1">
+                    <a href="contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                </li>
+            </ul>
+            <!-- Listas -->
+        </div>
+        <div id="main ">
+            <button class="openbtn " onclick="openNav() ">☰ </button>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarCollapse ">
+            <ul class="navbar-nav  mb-2 mb-md-0 ">
+                <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
+            </ul>
+</nav>
 </head>
-<body style="background-color:rgb(26, 26, 26);"> 
-      
-    <div class="container">
 
+<body style="background-color:rgb(26, 26, 26);">
+
+    <div class="container">
         <div class="box-container">
             <h1 class="heading"> <span>Sección de</span> productos </h1>
+
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/juego-gog-com-divinity-original-sin-ii-cover.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/GREENHELL.png" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
-                    <h3>Divinity 2</h3>
+                    <h3>Green Hell</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -80,16 +91,57 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price">ARS$ 120,00 <span>ARS$ 190,00</span></div>
-                    <a href="producto2.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 98,00 <span> ARS$ 150,76</span></div>
+                    <a href="./Juegos/greenhell.html" class="btn"> Mas detalles </a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image-container">
+                    <div class="big-image">
+                        <img src="imagenes/Productos/BORDERLANDS2.jpg" class="big-img-1" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Borderlands 2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">ARS$ 208,09 <span> ARS$ 495,45</span> </div>
+                    <a href="./Juegos/borderlands2.html" class="btn"> Mas detalles </a>
                 </div>
             </div>
 
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/dotaa2.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/DIVINITY2.jpg" class="big-img-1" alt="">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Divinity Original Sin 2</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">ARS$ 489.99 </div>
+                    <a href="./Juegos/divinity.html" class="btn"> Mas detalles </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image-container">
+                    <div class="big-image">
+                        <img src="imagenes/Productos/DOTA2.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -101,15 +153,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> Free <span> ARS$ 320,00</span></div>
-                    <a href="producto6.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> Free to play</div>
+                    <a href="./Juegos/dota2.html" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/dyinglight-2.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/DL2.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -121,15 +173,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 2.100,00 <span>ARS$ 4.600,00</span></div>
-                    <a href="producto3.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 419,99 </div>
+                    <a href="./Juegos/dyinglight2.html" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/dk3.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/DS3.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -141,15 +193,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 1.000,00 <span>ARS$ 2.800,00</span></div>
-                    <a href="producto5.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 1.724,43 <span>ARS$ 4.057.48</span></div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/darksoulsrem.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/DSREMASTERED.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -161,15 +213,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 1.200,00 <span>ARS$ 1.900,00</span></div>
-                    <a href="producto4.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 1.199,00 </div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/no-mans-sky-pc-juego-steam-cover.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/NMSKY.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -181,15 +233,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 2.299,99 <span>ARS$ 2.899,99</span></div>
-                    <a href="producto7.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 2.299,99 </div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/GOW.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/GOW.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -201,15 +253,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 4.199,00 <span>ARS$ 4.599,00</span></div>
-                    <a href="producto8.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 2.770,64 <span>ARS$ 3.598,23</span></div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/r6siege.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/Rainbow-Six.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -221,15 +273,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 1.499,00 <span>ARS$ 1.799,00 </span></div>
-                    <a href="producto9.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 129,99 </div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/rocketleague.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/RLEAGUE.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -241,15 +293,15 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 1.000,00  <span>ARS$ 1.499,00 </span></div>
-                    <a href="producto10.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> Free to play</div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
             <div class="box">
                 <div class="image-container">
                     <div class="big-image">
-                        <img src="imagenes/FIFA22.jpg" class="big-img-1" alt="">
+                        <img src="imagenes/Productos/JUEGO DFE MIERDA.jpg" class="big-img-1" alt="">
                     </div>
                 </div>
                 <div class="content">
@@ -261,28 +313,26 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    
-                    <div class="price"> ARS$ 5.499,00<span>ARS$ 6.000,00</span></div>
-                    <a href="producto11.html" class="btn"> Mas detalles </a>
+
+                    <div class="price"> ARS$ 5.499,00 </div>
+                    <a href="./Juegos/" class="btn"> Mas detalles </a>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <script src="js/script.js"></script><br><br><br>
-    <footer class="pie_de_pagina">
-        <div class="box_redes"><br>
-            <h3 style="color: gainsboro;">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
+    <script src="js/script.js"></script>
+    <footer class="pieDePagina">
+        <div class="box_redes" style="margin-left: 3%; padding-bottom: 10px;">
+            <h3 style="color: gainsboro; padding-top: 2%; font-size: 25px;">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
             <div class="redes sociales">
-                    <img src="imagenes/logo_facebook.png" height=40px>
-                    <img src="imagenes/logo_insta.png" height=40px>
-                    <img src="imagenes/logo_twitter.png" height=48px>
-
+                <img style="margin-right: 8px;" src="imagenes/logo_facebook.png" height=40px>
+                <img src="imagenes/logo_insta.png" height=40px>
+                <img src="imagenes/logo_twitter.png" height=50px style="margin-bottom: -5px;">
             </div>
-
         </div>
-
     </footer>
 </body>
+
 </html>

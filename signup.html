@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Login basico</title>
-    <script src="login.js"></script>
-    <link rel="stylesheet" href="estiloLogin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloSignup.css">
     <link rel="stylesheet" href="boostrap.css">
     <script type="text/javascript" src="main.js"></script>
+    <title>Formulario Registro</title>
 </head>
 <script>
     function openNav() {
@@ -36,8 +37,8 @@
             <ul class="list-unstyled ps-0">
                 <li class="mb-1">
                     <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-                Categorias
-              </button>
+                    Categorias
+                  </button>
                     <div class="collapse show" id="home-collapse">
                         <ul class="list-unstyled">
 
@@ -57,7 +58,7 @@
 
                 <li class="border-top my-3"></li>
                 <li class="mb-1">
-                    <a href=".contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                    <a href="contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
                 </li>
             </ul>
             <!-- Listas -->
@@ -71,35 +72,33 @@
 
             </ul>
 </nav>
+</nav>
 </head>
 
 <body>
-    <div class="caja">
-        <h2>Inicio de Sesión</h2>
-        <form action="">
-            <div class="inputcaja">
-                <input type="text" name="usuario" required="" id="usuario">
-                <label for="">Usuario</label>
-            </div>
-            <div class="inputcaja">
-                <input type="password" name="pass" required="" id="pass">
-                <label for="">Contraseña</label>
-            </div>
-            <input type="button" value="Ingresar" onclick="validar()">
-            <p style="margin-top: 2%;"><a href=" signup.html ">¿No tiene una cuenta?</a></p>
-        </form>
-    </div>
+    <section class="form-register">
+        <h4>Registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="text" name="usuario" id="usuario" placeholder="Ingrese su Usuario">
+        <input class="controls" type="mail" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a> </p>
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="login.html">¿Ya tengo cuenta?</a></p>
+    </section>
 
-    <footer class="pie de pagina " style="background-color: rgb(39, 39, 39); margin-top: 3%; border-color: black; bottom: 0; position: fixed; right: 0; left: 0; ">
-        <div class="box_redes " style="margin-left: 3%; padding-bottom: 10px; ">
-            <h3 style="color: gainsboro; padding-top: 2%; font-size: 25px; ">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
-            <div class="redes sociales ">
-                <img style="margin-right: 8px; " src="imagenes/logo_facebook.png " height=40px>
-                <img src="imagenes/logo_insta.png " height=40px>
-                <img src="imagenes/logo_twitter.png " height=50px style="margin-bottom: -5px;">
+    <footer class="pieDePagina">
+        <div class="box_redes" style="margin-left: 3%; padding-bottom: 10px;">
+            <h3 style="color: gainsboro; padding-top: 2%; font-size: 25px;">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
+            <div class="redes sociales">
+                <img style="margin-right: 8px;" src="./imagenes/logo_facebook.png" height=40px>
+                <img src="./imagenes/logo_insta.png" height=40px>
+                <img src="./imagenes/logo_twitter.png" height=50px style="margin-bottom: -5px;">
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

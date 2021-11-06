@@ -1,12 +1,13 @@
-
 body {
-margin: 0;
-padding: 0;
-font-family: sans-serif;
-background: url("https://generacionxbox.com/wp-content/uploads/2017/07/xbox-digitales-generacion-xbox.png") ;
-background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("https://generacionxbox.com/wp-content/uploads/2017/07/xbox-digitales-generacion-xbox.png");
+    background-size: cover;
 }
+
 .caja {
+    margin-top: 5%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -17,15 +18,18 @@ background-size: cover;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
     border-radius: 10px;
 }
-.caja h2  {
+
+.caja h2 {
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
     text-align: center;
 }
+
 .caja .inputcaja {
     position: relative;
 }
+
 .caja .inputcaja input {
     width: 100%;
     padding: 10px 0;
@@ -38,6 +42,7 @@ background-size: cover;
     outline: none;
     background: transparent;
 }
+
 .caja .inputcaja label {
     position: absolute;
     top: 0;
@@ -48,13 +53,15 @@ background-size: cover;
     pointer-events: none;
     transition: .5s;
 }
-.caja .inputcaja input:focus ~ label,
-.caja .inputcaja input:valid ~ label {
+
+.caja .inputcaja input:focus~label,
+.caja .inputcaja input:valid~label {
     top: -18px;
     left: 0;
     color: #03a9f4;
     font-size: 12px;
 }
+
 .box input[type="submit"] {
     background: transparent;
     border: none;
