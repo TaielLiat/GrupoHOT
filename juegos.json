@@ -1,0 +1,80 @@
+[{
+    // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+    "id": 1,
+    "tipo": "Producto",
+    "nombre": "Green Hell",
+    "géneros": ["Acción", "MMO", "Rol", "Aventura"],
+    "productoDestacado": true,
+    "productoOferta": true,
+    "productoRecomendado": false,
+    "precioBase": 150.76,
+    "precioDescuento": 98.00,
+
+    // PAGINA PRINCIPAL - SLIDER
+    "imgSliderPath": ,
+    "descripciónSlider": ,
+
+    // PAGINA PRINCIPAL - RECOMENDADOS
+    "Descuento": ,
+
+
+    // DETALLE DE PRODUCTO
+    "desarrollador": [],
+    "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
+
+    "reseñas": [
+        "“Es divertido, desafiante y, si juegas en equipo, una aventura fantástica.” 7.5/10 – 3D Juegos",
+        "“ARK: Survival Evolved tiene grandes momentos de batalla con bestias prehistóricas, pero también muchos errores de IA y grind.” 7.7/10 – IGN",
+        "“La dificultad y la atmósfera implacables son las principales características del simulador de dino-supervivencia Ark: Survival Evolved.” 6/10 – Game Spot"
+    ],
+
+    "idiomasDisponibles": [{
+        "interfaz": ["✔", "no disponible"],
+        "voces": ["✔", "no disponible"],
+        "subtitulos": ["✔", "no disponible"],
+        "Español Latinoamerica": [true, true, true],
+        "Inglés": [true, true, true],
+        "Francés": [true, true, true],
+        "Alemán": [true, true, true],
+        "Italiano": [true, true, true],
+        "Japonés": [true, true, true],
+        "Español España": [true, true, true],
+        "Coreano": [true, true, true],
+        "Chino tradicional": [true, true, true],
+
+    }],
+
+    "requisitosSistemaMínimos": [
+        "MÍNIMOS:",
+        "Requiere unprocesador y un sistema operativo de 64 bits",
+        "SO: Windows 7 SPI, Windows 8.1 o Windows 10",
+        "Procesador: Intel Core i5 o equivalente",
+        "Memoria: 4 GB de RAM",
+        "Almacenamiento: 60 GB de espacio disponible",
+        "Gráficos: NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores",
+        "Tarjeta de sonido: DirectX 11 Compatible",
+        "Notas adicionales: Los requerimientos minimos pueden cambiar durante el desarrollo",
+    ],
+    "requisitosSistemaRecomendados": [
+        "RECOMENDADOS:",
+        "Requiere un procesador y un sistema operativo de 64 bits",
+        "SO: Windows 7 SPI, Windows 8.1 o Windows 10",
+        "Procesador: Intel Core i7 o equivalente",
+        "Memoria: 8 GB de RAM",
+        "Almacenamiento: 60 GB de espacio disponible",
+        "Gráficos: NVIDIA GeForce GTX 770 o AMD R9 280",
+        "Tarjeta de sonido: DirectX 11 Compatible",
+        "Notas adicionales: Los requerimientos recomendados pueden cambiar durante el desarrollo",
+    ],
+    "videoPath": [
+        "../imagenes/Videos/Green Hell.mp4"
+    ],
+    "imgPath": [
+            "../imagenes/greenhell.jpg"
+        ]
+        ////////
+}, {
+
+
+
+}]
