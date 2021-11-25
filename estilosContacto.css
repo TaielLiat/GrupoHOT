@@ -106,7 +106,7 @@ button {
     padding: 10px 25px;
 }
 
-.modal-container {
+.modal-container, .modal_container2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
@@ -126,7 +126,7 @@ button {
     opacity: 1;
 }
 
-.modal_contacto {
+.modal_contacto, .datos_ingresados_modal {
     background-color: whitesmoke;
     width: 600px;
     max-width: 100%;

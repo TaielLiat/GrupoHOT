@@ -50,12 +50,31 @@ function enviarFormulario() {
 
 const boton_enviar = document.getElementById('send');
 const modal_container = document.getElementById('modal_container');
+const modal_container2 = document.getElementById('modal_container2');
 const boton_close = document.getElementById('close');
+const boton_cerrar_datos_ingresados = document.getElementById('cerrar_datos_ingresados');
+
 
 boton_close.addEventListener('click', () => {
     modal_container.classList.remove('show');
 });
 
 boton_enviar.addEventListener('click', () => {
-    //aca irian las acciones que ocurririan en el caso de presionar "si"
+    modal_container.classList.remove('show');
+    var nombreYApDiv = document.getElementById('nombre_apellido_modal');
+    var emailModalDiv = document.getElementById('email_modal');
+    var telefonoModalDiv = document.getElementById('telefono_modal');
+    var comentarioModalDiv = document.getElementById('comentario_modal');
+
+
+    nombreYApDiv.innerHTML = nombreYApellido.value;
+    emailModalDiv.innerHTML = Email.value;
+    telefonoModalDiv.innerHTML = Telefono.value;
+    comentarioModalDiv.innerHTML = Comentario.value;
+
+    modal_container2.classList.add('show');
+});
+
+boton_cerrar_datos_ingresados.addEventListener('click', () => {
+    modal_container2.classList.remove('show');
 });
