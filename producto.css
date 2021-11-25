@@ -1,4 +1,185 @@
             @charset "UTF-8";
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            .box-comentario {
+                width: 93vw;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                background: #b6b6b6;
+                margin-left: 3.3%;
+            }
+
+            .inputTexto input,
+            textarea {
+                width: 100%;
+                padding: 10px 0;
+                font-size: 16px;
+                letter-spacing: 1px;
+                color: #fff;
+                margin-bottom: 30px;
+                border: none;
+                border-bottom: 1px solid #fff;
+                outline: none;
+                background: transparent;
+            }
+            
+            form {
+                width: 600 px;
+                margin: auto;
+                background: rgba(0, 0, 0, 0, 4);
+                padding: 10px 20px;
+                box-sizing: border-box;
+                margin-top: 20px;
+                border-radius: 7px;
+            }
+            
+            
+            .form_envio {
+                background: rgba(0, 0, 0, .8);
+                box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+            }
+            
+            h5 {
+                color: yellowgreen;
+                text-align: center;
+                margin: 0;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            
+            input,
+            textarea {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 7px;
+                box-sizing: border-box;
+                font-size: 17px;
+                border: none;
+            }
+            
+            textarea {
+                min-height: 100px;
+                max-height: 200px;
+                max-width: 100%;
+            }
+            
+            #boton {
+                background: greenyellow;
+                color: rgb(3, 0, 0);
+                padding: 10px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            
+            #boton:hover {
+                cursor: pointer;
+            }
+            
+            @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+            * {
+                box-sizing: border-box;
+            }
+            
+            
+            
+            button {
+                background-color: greenyellow;
+                border: 5;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                color: rgb(3, 0, 0);
+                font-size: 16px;
+                padding: 10px 25px;
+            }
+            
+            #form {
+                width: 250px;
+                margin: 0 auto;
+                height: 50px;
+              }
+            
+              #form p {
+                text-align: center;
+              }
+            
+              #form label {
+                font-size: 20px;
+              }
+            
+              input[type="radio"] {
+                display: none;
+              }
+            
+              label {
+                color: grey;
+              }
+            
+              .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+                margin: auto;
+                margin-left: -50%;
+              }
+            
+              label:hover,
+              label:hover ~ label {
+                color: orange;
+              }
+            
+              input[type="radio"]:checked ~ label {
+                color: orange;
+              }
+            
+            .modal-container {
+                display: flex;
+                background-color: rgba(0, 0, 0, 0.3);
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                pointer-events: none;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 100vw;
+                transition: opacity 0.3s ease;
+            }
+            
+            .show {
+                pointer-events: auto;
+                opacity: 1;
+            }
+            
+            .modal {
+                background-color: whitesmoke;
+                width: 600px;
+                max-width: 100%;
+                padding: 30px 50px;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+            
+            .modal h1 {
+                margin: 0;
+            }
+            
+            .modal p {
+                opacity: 0.7;
+                font-size: 14px;
+            }
+            
+            
+            .pie_de_pagina {
+                background-color: rgb(39, 39, 39)!important;
+            }
             .pieDePagina {
                 background-color: rgb(39, 39, 39);
                 border-color: black;
