@@ -1,0 +1,2112 @@
+[
+    { //VALHEIM - SLIDER INDEX - DESCUENTO 
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 14,
+        "tipo": "Producto",
+        "nombre": "Valheim",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            150.76
+        ],
+        "precioDescuento": [
+            "ARS$",
+            98.00
+        ],
+        "descuento": [
+            45,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/valheim.jpg",
+        "descripciónSlider": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim...",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Iron Gate AB"
+        ],
+        "editor": [
+            "Coffee Stain Publishing"
+        ],
+        "franquicia": "Coffee Stain Publishing",
+        "fechaDeLanzamiento": "2 FEBRERO 2021",
+        "descripción": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim. Tus pruebas comienzan en el pacífico centro desarmado de Valheim, pero los dioses recompensan a los valientes y la gloria te aguarda. Aventúrate a través de bosques imponentes y montañas cubiertas de nieve, explora y recolecta materiales valiosos para crear armas más letales, armaduras más resistentes, fortalezas vikingas y puestos de avanzadilla. Construye un poderoso barco y navega por los grandes océanos en busca de tierras exóticas... pero ten cuidado de navegar demasiado lejos...",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Gráficamente vistoso sin ser exogente y con un a fluida jugabilidad que promete horas y horas de aventura y un futuro prometedor.” 8/10 –",
+                    "Portal Geek"
+                ],
+                "reseña2": [
+                    "“Una experiencia divertidísima en solitario, que encuentra su mejor versión en la faceta cooperativa.” 8/10 –",
+                    "Solo Jugadores"
+                ],
+                "reseña3": [
+                    "“El juego sigue en desarrollo, así que con el tiempo irá mejorando en algunas cosas, pero actualmente ya se siente como un juego completo” 7.5/10 –",
+                    "Back to the Games"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "2.6 GHz Quad Core o similares"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "1 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    " GeForce GTX 950 o Radeon HD 7970"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " i5 3GHz o Ryzen 5 3GHzs"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "16 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "1 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 1060 or Radeon RX 580"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Valheim.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/Valheim.jpg"
+        ]
+    },
+    { //NO MAN'S SKY    
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 13,
+        "tipo": "Producto",
+        "nombre": "No Man's Sky",
+        "géneros": [
+            "Acción",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            2299.99
+        ],
+        "precioDescuento": [
+            false
+        ],
+        "descuento": [
+            false
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Hello Games"
+        ],
+        "editor": [
+            "Hello Games"
+        ],
+        "franquicia": false,
+        "fechaDeLanzamiento": "12 AGOSTO 2016",
+        "descripción": "Inspirado por la aventura y la imaginación que amamos de la ciencia ficción clásica, No Man's Sky te presenta una galaxia para explorar, llena de planetas y formas de vida únicos, y peligro y acción constantes. En No Man's Sky, cada estrella es la luz de un sol distante, cada una orbitada por planetas llenos de vida, y puedes ir a cualquiera de ellos que elijas. Vuela sin problemas desde el espacio profundo hasta las superficies planetarias, sin pantallas de carga y sin límites. En este universo infinito generado por procedimientos, descubrirás lugares y criaturas que ningún otro jugador ha visto antes, y tal vez nunca lo volverán a ver.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Conmovedor, técnicamente competente y, a veces, casi con lágrimas en los ojos.” 5/5 –",
+                    "The Guardian"
+                ],
+                "reseña2": [
+                    "“No Man’s Sky es un enorme juego al que desafortunadamente le quedó grande el universo.” 7/10 –",
+                    "IGN"
+                ],
+                "reseña3": [
+                    "“Exploración relajante y un paisaje encantador junto con sistemas repetitivos, menús frustrantes y falta de descubrimiento real” 64/100 –",
+                    "Level Up"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    " Windows 7/8.1/10 (version 64-bit)"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i3"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "10 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "Nvidia GTX 480, AMD Radeon 7870"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/No Man's Sky.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/nomanssky.jpg"
+        ]
+    },
+    { //GREEN HELL - SLIDER INDEX - DESCUENTO
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 12,
+        "tipo": "Producto",
+        "nombre": "Green Hell",
+        "géneros": [
+            "Acción",
+            "MMO",
+            "Rol",
+            "Aventura"
+        ],
+        "productoDestacado": true,
+        "productoOferta": true,
+        "productoRecomendado": false,
+        "precioBase": [
+            "ARS$",
+            150.76
+        ],
+        "precioDescuento": [
+            "ARS$",
+            98.00
+        ],
+        "descuento": [
+            65,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/green hell.jpg",
+        "descripciónSlider": "GREEN HELL es un simulador de supervivencia de mundo abierto ambientado en el entorno único e inexplorado de la selva amazónica. Te quedas solo en la jungla sin comida ni equipo, tratando de sobrevivir y encontrar la salida. Aferrado a la vida, el jugador se embarca en un viaje de durabilidad a medida que los efectos de la soledad se desgastan no solo en el cuerpo sino también en la mente. ¿Cuánto tiempo podrás sobrevivir a los peligros de lo desconocido?",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Creepy Jar"
+        ],
+        "editor": "Creepy Jar",
+        "franquicia": [
+            ""
+        ],
+        "fechaDeLanzamiento": "5 SEPTIEMBRE 2019",
+        "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Es divertido, desafiante y, si juegas en equipo, una aventura fantástica.” 7.5/10 –",
+                    "3D Juegos"
+                ],
+                "reseña2": [
+                    "“ARK: Survival Evolved tiene grandes momentos de batalla con bestias prehistóricas, pero también muchos errores de IA y grind.” 7.7/10 –",
+                    "IGN"
+                ],
+                "reseña3": [
+                    "“La dificultad y la atmósfera implacables son las principales características del simulador de dino-supervivencia Ark: Survival Evolved.” 6/10 –",
+                    "GameSpot"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SPI, Windows 8.1 o Windows 10"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5 o equivalente"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "60 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SPI, Windows 8.1 o Windows 10"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i7 o equivalente"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "60 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GeForce GTX 770 o AMD R9 280"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Green Hell.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/greenhell.jpg"
+        ]
+    },
+    { //GOD OF WAR - SLIDER INDEX - DESCUENTO
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 11,
+        "tipo": "Producto",
+        "nombre": "God of War",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura"
+        ],
+        "productoDestacado": true,
+        "productoOferta": true,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            3598.23
+        ],
+        "precioDescuento": [
+            "ARS$",
+            2770.64
+        ],
+        "descuento": [
+            23,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/gow horizontal.jpg",
+        "descripciónSlider": "Habiendo consumado su venganza contra los dioses el Olimpo años atrás, Kratos ahora vive como un hombre en el reino de los dioses y los monstruos nórdicos. En este hostil e inhóspito mundo, debe pelear por sobrevivir... y enseñarle a su hijo a hacer lo mismo.",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Santa Monica Studio"
+        ],
+        "editor": "PlayStation PC LLC",
+        "franquicia": [
+            ""
+        ],
+        "fechaDeLanzamiento": "20 ABRIL 2018",
+        "descripción": "Habiendo consumado su venganza contra los dioses el Olimpo años atrás, Kratos ahora vive como un hombre en el reino de los dioses y los monstruos nórdicos. En este hostil e inhóspito mundo, debe pelear por sobrevivir... y enseñarle a su hijo a hacer lo mismo.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“God of War es un nuevo comienzo para Kratos, un juego diferente, pero sigue siendo una de las mejores entradas de la serie y uno de los mejores juegos de esta generación.” 93/100 – ",
+                    "IGN"
+                ],
+                "reseña2": [
+                    "“El nuevo comienzo de Kratos está lleno de corazón, cargado de acción y es fácilmente uno de los mejores juegos de esta generación.” 100/100 –",
+                    "Gaming Age"
+                ],
+                "reseña3": [
+                    "“La reinvención de Kratos sirve como un gancho narrativo, pero también es paralela a la evolución de la serie en su conjunto; donde God of War una vez se basó en la grandilocuencia y la sed de sangre, ahora deja espacio para la estrategia y los matices. Todavía tiene una acción excelente y muchos momentos asombrosos, pero los respalda con un nuevo nivel de profundidad y madurez. God of War aprende de su pasado mientras abre un camino emocionante para el futuro, y emerge como uno de los mejores juegos de esta generación. ” 98/100 –",
+                    "Game Informer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Coming soon"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "80 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "Coming soon"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Coming soon"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "80 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "Coming soon"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/God of War 4.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/GOW PAG.jpg"
+        ]
+    },
+    { //THE ELDER SCROLLS V: SKYRIM - SLIDER INDEX - DESCUENTO
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 10,
+        "tipo": "Producto",
+        "nombre": "The Elder Scrolls V: Skyrim",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura"
+        ],
+        "productoDestacado": true,
+        "productoOferta": true,
+        "productoRecomendado": false,
+        "precioBase": [
+            "ARS$",
+            315.00
+        ],
+        "precioDescuento": [
+            "ARS$",
+            220.50
+        ],
+        "descuento": [
+            30,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/elderscrolls.jpg",
+        "descripciónSlider": "El siguiente capítulo de la muy esperada saga Elder Scrolls llega de los creadores de los Juegos del año 2006 y 2008, Bethesda Game Studios. Skyrim reinventa y revoluciona la épica de fantasía de mundo abierto, dando vida a un mundo virtual completo abierto para que lo explores de la forma que elijas.",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Bethesda Game Studios"
+        ],
+        "editor": "Bethesda Softworks",
+        "franquicia": [
+            "The Elder Scrolls",
+            "Skyrim"
+        ],
+        "fechaDeLanzamiento": "10 NOVIEMBRE 2011",
+        "descripción": "El siguiente capítulo de la muy esperada saga Elder Scrolls llega de los creadores de los Juegos del año 2006 y 2008, Bethesda Game Studios. Skyrim reinventa y revoluciona la épica de fantasía de mundo abierto, dando vida a un mundo virtual completo abierto para que lo explores de la forma que elijas.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“A Masterpiece.” 10/10 –",
+                    "Eurogamer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": false
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7/8.1/10 (Version 64-bit)"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " Intel i5-750/AMD Phenom II X4-945"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "12 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7/8.1/10 (Version 64-bit)"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " Intel i5-2400/AMD FX-8320"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "12 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GeForce GTX 770 o AMD R9 280"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/The Elder Scrolls V_ Skyrim.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/elder.png"
+        ]
+    },
+    { //DYING LIGHT 2 - SLIDER INDEX - DESCUENTO
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 9,
+        "tipo": "Producto",
+        "nombre": "Dying Light 2 Stay Human",
+        "géneros": [
+            "Acción",
+            "Rol"
+        ],
+        "productoDestacado": true,
+        "productoOferta": true,
+        "productoRecomendado": false,
+        "precioBase": [
+            "ARS$",
+            419.99
+        ],
+        "precioDescuento": [
+            "ARS$",
+            315.00
+        ],
+        "descuento": [
+            30,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/dyingLight2.jpg",
+        "descripciónSlider": "Luchamos contra el virus en Harran hace 20 años. Perdimos la batalla. Y estamos cerca de perder otra vez. La Ciudad, uno de los últimos asentamientos grandes de la humanidad, se viene abajo por los conflictos internos. La civilización regresó a la Edad Oscura. Pero aún tenemos esperanza.",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Techland"
+        ],
+        "editor": "Techland",
+        "franquicia": "Dying Light",
+        "fechaDeLanzamiento": "4 FEBRERO 2022",
+        "descripción": "Luchamos contra el virus en Harran hace 20 años. Perdimos la batalla. Y estamos cerca de perder otra vez. La Ciudad, uno de los últimos asentamientos grandes de la humanidad, se viene abajo por los conflictos internos. La civilización regresó a la Edad Oscura. Pero aún tenemos esperanza. Eres un vagabundo cuyo poder le permitirá decidir el destino de la Ciudad. Pero unas habilidades tan excepcionales nunca son gratuitas. Te persiguen memorias que no alcanzas a entender. Decides salir en busca de la verdad... y acabas en medio de una guerra. Tendrás que aprender rápido, porque necesitarás fuerza e inteligencia tanto para derrotar a tus enemigos como para conseguir aliados. Desvela los oscuros secretos que ocultan los poderosos. Elige un bando. Decide tu destino. Y, pase lo que pase no pierdas tu humanidad",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Dying Light evoluciona de forma gradual y gratificante hacia una celebración rápida e hiperviolenta de la libertad vertical y la destrucción de los zombis”. 8,5 / 10 -",
+                    "IGN"
+                ],
+                "reseña2": [
+                    "“Una emocionante aventura de zombies que me hace recordar lo que amaba de Dead Island y olvidar lo que odiaba”. Sí –",
+                    "Kotaku"
+                ],
+                "reseña3": [
+                    "“El pedigrí de Techland ayuda a Dying Light a convertirse en uno de los mejores juegos de zombies de los últimos años”. 8,5 / 10 –",
+                    "GameInformer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows® 7 64-bit / Windows® 8 64-bit / Windows® 8.1 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel® Core™ i5-2500 @3.3 GHz / AMD FX-8320 @3.5 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB RAM DDR3"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "40 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce® GTX 560 / AMD Radeon™ HD 6870 (1GB VRAM)"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Las versiones de tarjetas gráficas de Laptops pueden funcionar pero NO son soportadas oficialmente"
+                ],
+                "notas1": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows® 7 64-bit / Windows® 8 64-bit / Windows® 8.1 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel® Core™ i5-4670K @3.4 GHz / AMD FX-8350 @4.0 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM DDR3"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "40 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GeForce GTX 560 / ATI Radeon HD 5850"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Las versiones de tarjetas gráficas de Laptops pueden funcionar pero NO son soportadas oficialmente"
+                ],
+                "notas1": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Dying Light 2.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/dyinglight2.png"
+        ]
+    },
+    { //DOTA 2 - FREE TO PLAY
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 8,
+        "tipo": "Producto",
+        "nombre": "Dota 2",
+        "géneros": [
+            "Acción",
+            "Free to Play",
+            "Estrategia",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": false,
+        "precioBase": false,
+        "precioDescuento": false,
+        "descuento": false,
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Valve"
+        ],
+        "editor": "Valve",
+        "franquicia": [
+            "Dota"
+        ],
+        "fechaDeLanzamiento": "9 JULIO 2013",
+        "descripción": "Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota en un enfrentamiento por equipos de 5 contra 5. Dota es el juego de estrategia en tiempo real de acción multijugador más profundo jamás creado y siempre hay una nueva estrategia o táctica que descubrir. Jugar a Dota es gratis y siempre lo será. Comienza ya a defender tu Ancestro.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Una obra maestra de los juegos multijugador modernos.” 9.5/10 –",
+                    "Destructoid"
+                ],
+                "reseña2": [
+                    "“Una vez que empiezas a descubrir sus secretos, hay una salvaje y emocionante variedad de formas de jugar inigualables en el género.” 9.4/10 –",
+                    "IGN"
+                ],
+                "reseña3": [
+                    "“Dota 2 es posiblemente el único juego gratuito competitivo cuyo modelo de negocio no afecta en absoluto a la jugabilidad.” 90/100 –",
+                    "PC Gamer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posterior"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel o AMD de doble núcleo de 64 bits a 2.8 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "15 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    " NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 9.0c Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Dota 2.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/dota2.jpg"
+        ]
+    },
+    { //DIVINITY ORIGINAL SIN 2  
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 7,
+        "tipo": "Producto",
+        "nombre": "Divinity Original Sin 2",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "Estrategia"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": false,
+        "precioBase": [
+            "ARS$",
+            489.99
+        ],
+        "precioDescuento": false,
+        "descuento": false,
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Larian Studios"
+        ],
+        "editor": "Larian Studios",
+        "franquicia": false,
+        "fechaDeLanzamiento": "14 SEPTIEMBRE 2017",
+        "descripción": "Lo Divino está muerto. El Vacío se acerca. Y los poderes latentes dentro de ti pronto despertarán. La batalla por la Divinidad ha comenzado. Elija sabiamente y confíe con moderación; la oscuridad acecha dentro de cada corazón.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Uno de los juegos de rol más cautivadores jamás creados.” 10/10 –",
+                    "GameSpot"
+                ],
+                "reseña2": [
+                    "“La secuela épica de Larian es uno de los mejores juegos de rol de la década.” 9.6/10 –",
+                    "IGN"
+                ],
+                "reseña3": [
+                    "“Uno de los mejores juegos de rol para PC de todos los tiempos.” 9.75/10 –",
+                    "GameInformer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SP1 64-bit, Windows 8.1 64-bit o Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5 o equivalente"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "60 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce® GTX 550 o ATI™ Radeon™ HD 6XXX o posteriores"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SP1 64-bit, Windows 8.1 64-bit o Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i7 o equivalente"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "60 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GeForce GTX 770 o AMD R9 280"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Divinity2.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/divinity2.jpg"
+        ]
+    },
+    { ///DARK SOULS REMASTERED - RECOMENDADOS INDEX         
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 6,
+        "tipo": "Producto",
+        "nombre": "Dark Souls Remastered",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            1199.00
+        ],
+        "precioDescuento": false,
+        "descuento": false,
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "FromSoftware, Inc"
+        ],
+        "editor": [
+            "FromSoftware.Inc",
+            "BANDAI NAMCO Entertainment"
+        ],
+        "franquicia": "BANDAI NAMCO Entertainment",
+        "fechaDeLanzamiento": "9 OCTUBRE 2013",
+        "descripción": "Luego, hubo fuego. Vuelve a experimentar el juego de definición de género aclamado por la crítica que lo inició todo. Maravillosamente remasterizado, vuelve a Lordran con asombrosos detalles de alta definición a 60 fps. Dark Souls Remastered incluye el juego principal más el DLC Artorias of the Abyss.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Jugar Dark Souls en una computadora de mano agrega una nueva dimensión absorbente a una aventura familiar.” 9.5/10 –",
+                    "IGN"
+                ],
+                "reseña2": [
+                    "“Un buen remaster de PC para aquellos a los que no les gustan los mods. Dark Souls sigue siendo impresionante, pero no esperes un salto comparable al de la remasterización de CoD.” 84/100 –",
+                    "Game Star"
+                ],
+                "reseña3": [
+                    "“Al final del día, esta es la manera perfecta de jugar Dark Souls. Si eres un jugador nuevo, el juego seguirá siendo igual de desafiante, pero se verá y se sentirá como un juego mucho más moderno. Si eres un veterano, este es un hermoso viaje lleno de nostalgia.” 100/100 –",
+                    "Gaming Age"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 64-bit, Service Pack 1"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5-2300 2.8 GHz / AMD FX-6300, 3.5 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "6 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 460, 1 GB / Radeon HD 6870, 1 GB"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " Intel Core i5-4570 3.2 GHz / AMD FX-8350 4.2 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 660, 2 GB / Radeon HD 7870, 2 GB"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Dark Souls Remastered.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/dsre.jpg"
+        ]
+    },
+    { //DARK SOULS 3 - RECOMENDADOS INDEX - DESCUENTO       
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 5,
+        "tipo": "Producto",
+        "nombre": "Dark Souls™ III",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": true,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            4057.48
+        ],
+        "precioDescuento": [
+            "ARS$",
+            2333.05
+        ],
+        "descuento": [
+            42.5,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "FromSoftware, Inc"
+        ],
+        "editor": [
+            "FromSoftware.Inc",
+            "Techland"
+        ],
+        "franquicia": "BANDAI NAMCO Entertainment",
+        "fechaDeLanzamiento": "11 ABRIL 2016",
+        "descripción": "A medida que los incendios se apagan y el mundo se arruina, viaja a un universo lleno de enemigos y entornos más colosales. Los jugadores se sumergirán en un mundo de atmósfera épica y oscuridad a través de un juego más rápido y una intensidad de combate amplificada. Tanto los fanáticos como los recién llegados se perderán en el característico juego gratificante y gráficos envolventes. Ahora solo quedan brasas ... ¡Prepárate una vez más y abraza la oscuridad!",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“El increíble mundo de Dark Souls 3 y las impresionantes artes de las armas lo convierten en la entrega más feroz hasta el momento.” 9.5/10 –",
+                    "IGN"
+                ],
+                "reseña2": [
+                    "“El diseño de niveles en expansión, los combates emocionantes y la narración indirecta magistral hacen de Dark Souls 3 el mejor Dark Souls hasta ahoraa.” 94% –",
+                    "PC Gamer"
+                ],
+                "reseña3": [
+                    "“Dark Souls III replica con éxito la fórmula ganadora de la serie Souls, una maravillosa combinación de majestuosas batallas contra jefes, increíbles entornos en capas llenos de secretos y combates precisos que pueden hacer que otros juegos de rol de acción sean difíciles de jugar una vez que domines el arte.” 9.25/10 –",
+                    "GameInformer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i3-2100 / AMD® FX-6300"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "25 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce GTX 750 Ti / ATI Radeon HD 7950"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ],
+                "notas1": [
+                    "Notas adicionales:",
+                    "Se requiere conexión a internet para jugar online y para la activación del producto"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i7-3770 / AMD® FX-8350"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "25 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA® GeForce GTX 970 / ATI Radeon R9 series"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ],
+                "notas1": [
+                    "Notas adicionales:",
+                    "Se requiere conexión a internet para jugar online y para la activación del producto"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Dark Souls Remastered.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/dsre.jpg"
+        ]
+    },
+    { // BORDERLANDS 2 SLIDER INDEX - DESCUENTO
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 4,
+        "tipo": "Producto",
+        "nombre": "Borderlands 2 ",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": true,
+        "productoOferta": true,
+        "productoRecomendado": false,
+        "precioBase": [
+            "ARS$",
+            495.45
+        ],
+        "precioDescuento": [
+            "ARS$",
+            208.09
+        ],
+        "descuento": [
+            42,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/border2.jpg",
+        "descripciónSlider": "Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Gearbox Software",
+            "Aspyr (Mac)",
+            "Aspyr (Linux)"
+        ],
+        "editor": [
+            "2k",
+            "Aspyr (Mac)",
+            "Aspyr (Linux)"
+        ],
+        "franquicia": "Borderlands",
+        "fechaDeLanzamiento": "20 SEPTIEMBRE 2012",
+        "descripción": "Está a punto de comenzar una nueva era de disparos y botines. Juega como uno de los cuatro nuevos cazadores de bóvedas que se enfrentan a un nuevo mundo masivo de criaturas, psicópatas y el malvado cerebro, Handsome Jack. Haz nuevos amigos, equípalos con un millón de armas y lucha junto a ellos en un modo cooperativo de 4 jugadores en una búsqueda incesante de venganza y redención a través del impredecible y desconocido planeta viviente.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Prepárate para nivelar. Prepárate para saquear. Prepárate para perderte en el hilarante, extraño y maravilloso mundo de Pandora.” 9/10 –",
+                    "IGN"
+                ],
+                "reseña2": [
+                    "“Borderlands 2 se destaca como la obra magna de Gearbox, y uno de los juegos más memorables y divertidos en los que he estado.” 4.5/5 –",
+                    "GameSpy"
+                ],
+                "reseña3": [
+                    "“Este es el juego, y hace que Borderlands sea persistentemente fresco de una manera que otros shooters nunca lo son.” 90/100 –",
+                    "PC Gamer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows XP SP3"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Procesador 2.4 GHz Dual Core "
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "256 MB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GeForce 8500 /ATI Radeon HD 2600"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 9.0 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ],
+                "notas1": [
+                    "Otros requerimientos:",
+                    "La instalación inicial requiere una conexión a Internet única para la autenticación de Steam; Las instalaciones de software necesarias (incluidas con el juego) incluyen Steam Client, DirectX 9, Microsoft.NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010 y controladores de CPU AMD (solo XP/solo AMD)"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows XP SP3/Vista/Win 7"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Procesador 2.3 GHz Quad Core"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "2 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    " NVIDIA GeForce GTX 560 / ATI Radeon HD 5850"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 9.0 Compatible"
+                ],
+                "notas": [
+                    "Notas adicionales:",
+                    "Los requerimientos minimos pueden cambiar durante el desarrollo"
+                ],
+                "notas1": [
+                    "Otros requerimientos:",
+                    "La instalación inicial requiere una conexión a Internet única para la autenticación de Steam; Las instalaciones de software necesarias (incluidas con el juego) incluyen Steam Client, DirectX 9, Microsoft.NET 4 Framework, Visual C++ Redistributable 2005, Visual C++ Redistributable 2008, Visual C++ Redistributable 2010 y controladores de CPU AMD (solo XP/solo AMD)"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Borderlands2.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/borderlands.jpg"
+        ]
+    },
+    { //BEYOND TWO SOULS - RECOMENDADOS INDEX
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 3,
+        "tipo": "Producto",
+        "nombre": "Beyond Two Souls",
+        "géneros": [
+            "Acción",
+            "Aventura"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            3268.98
+        ],
+        "precioDescuento": [
+            false
+        ],
+        "descuento": [
+            false
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Quantic Dream"
+        ],
+        "editor": [
+            "Quantic Dream"
+        ],
+        "franquicia": false,
+        "fechaDeLanzamiento": "9 OCTUBRE 2013",
+        "descripción": "Jodie nació vinculada a una entidad misteriosa con increíbles poderes, y por ello, es diferente. Tus acciones determinarán el destino de Jodie, mientras se enfrenta a desafíos singulares, peligros extraordinarios y desgarradoras pérdidas en una aventura para descubrir la verdad sobre su ser. Crea una historia repleta de acción a través de tus decisiones y acciones mientras te pones en la piel de una chica que nació con un vínculo a una entidad sobrenatural llamada Aiden. Mientras juegas como Jodie y Aiden, encontrarás desafíos físicos y psicológicos increíbles para comprender lo que en verdad existe... más allá.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Beyond Two Souls fusiona tan fácilmente la historia y la mecánica que te enamoras de esta joven y de su extraordinaria vida.” 9/10 –",
+                    "GameSpot"
+                ],
+                "reseña2": [
+                    "“Beyond Two Souls nos hace partícipes de una historia tan buena como la ofrecida por cualquier obra de Quantic Dream, pero potenciada al máximo gracias a la presencia de actores profesionales y diseños faciales que rozan el realismo. Nuevamente, lo paranormal toca la puerta y nuestro sentimiento de intriga servirá como propulsor para disfrutar de una historia que no tiene desperdicio.” 4/5 –",
+                    "Solo Jugadores"
+                ],
+                "reseña3": [
+                    "“Beyond Two Souls no estuvo a la altura de las expectativas de su gran producción; está lejos de ser un buen juego o una buena película, y ni la resolución ni los cuadros por segundo cambiarán eso. La virtud de esta entrega es, simplemente, aparentar más de lo que es.” 6.8/10 –",
+                    "Level Up"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5-4430 @ 3.0 GHz or AMD FX-6300 @ 3.5 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "4 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "49 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "Nvidia GeForce GTX 660 con 2GB VRAM o AMD Radeon HD 7870 con 2GB VRAM"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " Intel Core i5-6600K @ 3.5GHz o AMD Ryzen 3 1300X @ 3.4GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "49 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "Nvidia GeForce GTX 970 con 4GB VRAM o AMD Radeon R9 390 con 4GB VRAM"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Beyond Two Souls.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/b2s.jpg"
+        ]
+    },
+    { ///ASSASSINS CREED VALHALLA - RECOMENDADOS INDEX
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 2,
+        "tipo": "Producto",
+        "nombre": "Assassin's Creed Valhalla",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            3697.34
+        ],
+        "precioDescuento": [
+            false
+        ],
+        "descuento": [
+            false
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Ubisoft Montreal"
+        ],
+        "editor": "Ubisoft",
+        "franquicia": [
+            "Assassin's Creed"
+        ],
+        "fechaDeLanzamiento": "10 NOVIEMBRE 2020",
+        "descripción": "En Assassin's Creed Valhalla, te pondrás en la piel de Eivor, una leyenda vikinga en busca de gloria. Explora la Inglaterra de los años oscuros mientras saqueas a tus enemigos, haces prosperar tu asentamiento y consolidas tu poder político.",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Assassin's Creed Valhalla está lleno de historias interesantes y divertidos sistemas entrelazados, lo que lo convierte en un mundo fascinante en el que puedes perderte fácilmente.” 9.3/10 –",
+                    "GameInformer"
+                ],
+                "reseña2": [
+                    "“Sangriento y cautivador, Valhalla es Assassin's Creed en su mejor momento.” 92/100 –",
+                    "PC Gamer"
+                ],
+                "reseña3": [
+                    "“Valhalla es otra enorme saga de Assassin's Creed, lujosamente diseñada, con la mira puesta en la dirección de la historia sobre la elección narrativa.” Recomendable –",
+                    "Eurogamer"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 64-bit, Service Pack 1"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5-2300 2.8 GHz / AMD FX-6300, 3.5 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 460, 1 GB / Radeon HD 6870, 1 GB"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 10 64-bit"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5-4570 3.2 GHz / AMD FX-8350 4.2 GHz"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "8 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 660, 2 GB / Radeon HD 7870, 2 GB"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/ASSASSIN'S CREED VALHALLA.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/asvalhalla.jpg"
+        ]
+    },
+    { //ARK SURVIVAL EVOLVED - RECOMENDADOS INDEX
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 1,
+        "tipo": "Producto",
+        "nombre": "Ark Survival Evolved",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            329.99
+        ],
+        "precioDescuento": [
+            false
+        ],
+        "descuento": [
+            false
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": false,
+        "descripciónSlider": false,
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Studio Wildcard",
+            "Instinct Games",
+            "Efecto Studios",
+            "Virtual Basement LLC"
+        ],
+        "editor": [
+            "Studio Wildcard"
+        ],
+        "franquicia": false,
+        "fechaDeLanzamiento": "27 AGOSTO 2017",
+        "descripción": "Como hombre o mujer varado desnudo, helado y hambriento en las costas de una isla misteriosa llamada ARK, debes cazar, recolectar recursos, fabricar artículos, cultivar, investigar tecnologías y construir refugios para resistir los elementos. Usa tu astucia y tus recursos para matar o domesticar y criar a los dinosaurios leviatán y otras criaturas primitivas que deambulan por la tierra, y únete o aprovecha a cientos de otros jugadores para sobrevivir, dominar ... ¡y escapar!",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Es divertido, desafiante y, si juegas en equipo, una aventura fantástica.” 7.5/10 –",
+                    "3D Juegos"
+                ],
+                "reseña2": [
+                    "“ARK: Survival Evolved tiene grandes momentos de batalla con bestias prehistóricas, pero también muchos errores de IA y grind.” 7.7/10 –",
+                    "IGN"
+                ],
+                "reseña3": [
+                    "“La dificultad y la atmósfera implacables son las principales características del simulador de dino-supervivencia Ark: Survival Evolved.” 6/10 –",
+                    "GameSpot"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": false
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7/8.1/10"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "Intel Core i5-2400/AMD FX-8320 o posteriores"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "60 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB o posteriores"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 10 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/ARK - Survival Evolved.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/ark.jpg"
+        ]
+    },
+]

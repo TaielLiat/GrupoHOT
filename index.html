@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/boostrap.css">
+    <script src="codigoOfuscado.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Virgin Gaming</title>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="imagenes/Logo.png" height="60px" style="background-color: rgb(0, 230, 57); border-radius: 50px; padding: 2px;"> </img>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Inicio</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7 ">Ofertas</a>
+                <a href="./HOME.html" style="padding-left: 10px;color: #c7c7c7">Recomendados</a>
+                <a href="./galeria.html" style="padding-left: 10px;color: #c7c7c7 ">Todos los juegos</a>
+
+
+                <!-- Listas -->
+
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <button style="color: #f1f1f1; font-size: 20px;" class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    Categorias
+                  </button>
+                        <div class="collapse show" id="home-collapse">
+                            <ul class="list-unstyled">
+
+                                <li><a href="./producto6.html" class="link-dark rounded ">Free to play</a></li>
+                                <li><a href="./producto3.html" class="link-dark rounded ">Acción</a></li>
+                                <li><a href="./producto.html" class="link-dark rounded ">Aventuras</a></li>
+                                <li><a href="./producto10.html" class="link-dark rounded ">Carreras</a></li>
+                                <li><a href="./producto11.html " class="link-dark rounded ">Deportes</a></li>
+                                <li><a href="./producto9.html " class="link-dark rounded ">Estrategia</a></li>
+                                <li><a href="./producto7.html " class="link-dark rounded ">Multijugador masivo</a></li>
+                                <li><a href="./producto2.html" class="link-dark rounded ">Rol</a></li>
+                                <li><a href="./producto8.html" class="link-dark rounded ">Simuladores</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="border-top my-3"></li>
+                    <li class="mb-1">
+                        <a href="contacto.html" style="padding-left: 10px;color: #c7c7c7 ">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Listas -->
+            </div>
+            <div id="main ">
+                <button class="openbtn " onclick="openNav() ">☰ </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarCollapse ">
+                <ul class="navbar-nav  mb-2 mb-md-0 ">
+                    <p style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px; margin-top: 10px; margin-left: 10px; "> VIRGIN GAMING</p>
+
+                </ul>
+                <form class="d-flex " style="padding-left: 30%;">
+
+                    <input class=" form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-success " type="submit ">Search</button>
+                </form>
+                <!----------------- LOGIN ----------------->
+                <button class="btn btn-outline-success" onclick="location.href = 'login.html';" style="width:auto; margin-left: 25%;">Login</button>
+
+    </nav>
+</head>
+
+
+<body style="background-color: rgb(26, 26, 26);">
+    <h5 id="ofertas" style="text-align: center; font-size: 25px; color: #ffffff "> OFERTAS - DESTACADOS</h5>
+    <!-- Container for the image gallery -->
+    <div class="containerCAR " style="margin-left: 20%; margin-right: 10%; width: 60%; ">
+
+        <!-- Full-width images with number text -->
+        <a href="producto.html">
+            <div class="mySlides ">
+                <div class="numbertext ">1 / 6</div>
+                <img src="imagenes/Slider/border2.jpg " style="width:100%; margin-bottom: -6px ">
+            </div>
+        </a>
+        <div class="mySlides ">
+            <div class="numbertext ">2 / 6</div>
+            <img src="imagenes/Slider/greenhellHorizontal-min.jpeg " style="width:100%; margin-bottom: -6px ">
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext ">3 / 6</div>
+            <img src="imagenes/Slider/gow horizontal-min.jpg" style="width:100%; margin-bottom: -6px ">
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext ">4 / 6</div>
+            <img src="imagenes/Slider/valheim.jpg " style="width:100%; margin-bottom: -6px ">
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext ">5 / 6</div>
+            <img src="imagenes/Slider/elderscrolls.jpg " style="width:100%; margin-bottom: -6px ">
+        </div>
+
+        <div class="mySlides ">
+            <div class="numbertext ">6 / 6</div>
+            <img src="imagenes/Slider/dyinglight.jpg " style="width:100%; margin-bottom: -6px ">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev " onclick="plusSlides(-1) ">&#10094;</a>
+        <a class="next " onclick="plusSlides(1) ">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container ">
+            <p id="caption "></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="rowCAR ">
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/border2.jpg " style="width:100%; text-align: right; " onclick="currentSlide(1) " alt=" 42% DESCUENTO - ARS$ 208,09 ">
+            </div>
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/greenhellHorizontal-min.jpeg " style="width:100% " onclick="currentSlide(2) " alt="65% DESCUENTO - ARS$ 98,00  ">
+            </div>
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/gow horizontal-min.jpg " style="width:100% " onclick="currentSlide(3) " alt="23% DESCUENTO - ARS$ 2.770,64">
+            </div>
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/valheim.jpg " style="width:100% " onclick="currentSlide(4) " alt="240% DESCUENTO - ARS$ 135,00">
+            </div>
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/elderscrolls-min.jpg " style="width:100% " onclick="currentSlide(5) " alt="37% DESCUENTO - ARS$ 1.259,37">
+            </div>
+            <div class="column ">
+                <img class="demo cursor " src="imagenes/Slider/dyinglight-min.jpg " style="width:100% " onclick="currentSlide(6) " alt="25% DESCUENTO - ARS$ 157,50">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides ");
+            var dots = document.getElementsByClassName("demo ");
+            var captionText = document.getElementById("caption ");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none ";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active ", " ");
+            }
+            slides[slideIndex - 1].style.display = "block ";
+            dots[slideIndex - 1].className += " active ";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    
+    <script>
+        const header = document.querySelector('header');
+        const section = document.querySelector('section');
+        const requestURL = 'juegos.json';
+        const request = new XMLHttpRequest();
+    </script>
+</body>
+
+<hr style="margin-left: 7%; margin-right: 7%; margin-top: 3%; ">
+
+<body>
+    <div id="recomendados">
+        <p style="color: white; font-size: 35px; font-family: 'Lucida Sans'; margin-left: 7%; margin-top: 3%; margin-bottom: 2%; "> RECOMENDADOS </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-6 g-3 " style="background-color: rgb(34, 34, 34); padding: 10px; border-radius: 5px;border-color: black 3px; ">
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/ds3.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">DARK SOULS 3</h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <li>
+                                <p class="descuento "> 42,5% </p>
+                            </li>
+                            <li>
+                                <p class="preciorebajado "> ARS$ 2.350,00 </p>
+                            </li>
+                            </ul>
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/b2s.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">BEYOND TWO SOULS</h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/ark-min.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">ARK SURVIVAL EVOLVED</h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/dsre.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">DARK SOULS REMASTERED</h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/asvalhalla.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">ASSASSIN'S CREED VALHALLA</h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col ">
+            <div class="card h-100 ">
+                <img src="imagenes/GOW.jpg " class="card-img-top " alt="... " style="width: 100%; ">
+                <div class="card-body ">
+                    <h5 style="color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">GOD OF WAR<BR><BR></h5>
+                    <p class="card-text ">
+                        <div style="background-color: rgb(22, 22, 22);opacity: 1;list-style: none; padding: 5px; ">
+                            <p class="preciooriginal "> ARS$ 1.350,30</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pie de pagina">
+        <div class="box_redes"><br><br>
+            <h3 style="color: gainsboro;">SIGUENOS EN NUESTRAS REDES SOCIALES</h3>
+            <div class="redes sociales">
+                <a href="http://www.facebook.com/" target="_blank">
+                    <img src="imagenes/logo_facebook.png" height=40px>
+                    <a href="https://www.instagram.com/?hl=es" target="_blank">
+                    <img src="imagenes/logo_insta.png" height=40px>
+                    <a href="https://www.twitter.com/?lang=es" target="_blank">
+                    <img src="imagenes/logo_twitter.png" height=48px>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+
+
+</html>
