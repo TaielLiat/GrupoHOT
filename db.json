@@ -1,0 +1,156 @@
+[
+    { //VALHEIM - SLIDER INDEX - DESCUENTO 
+        // CODIGO COMPARTIDO EN TODAS LAS PAGINAS
+        "id": 14,
+        "tipo": "Producto",
+        "nombre": "Valheim",
+        "géneros": [
+            "Acción",
+            "Rol",
+            "Aventura",
+            "MMO"
+        ],
+        "productoDestacado": false,
+        "productoOferta": false,
+        "productoRecomendado": true,
+        "precioBase": [
+            "ARS$",
+            150.76
+        ],
+        "precioDescuento": [
+            "ARS$",
+            98.00
+        ],
+        "descuento": [
+            45,
+            "%"
+        ],
+        // PAGINA PRINCIPAL - SLIDER
+        "imgSliderPath": "../imagenes/Slider/valheim.jpg",
+        "descripciónSlider": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim...",
+        // DETALLE DE PRODUCTO
+        "desarrollador": [
+            "Iron Gate AB"
+        ],
+        "editor": [
+            "Coffee Stain Publishing"
+        ],
+        "franquicia": "Coffee Stain Publishing",
+        "fechaDeLanzamiento": "2 FEBRERO 2021",
+        "descripción": "Un guerrero muerto en batalla, las Valquirias llevaron su alma a Valheim, el décimo mundo nórdico. Rodeado de criaturas del caos y antiguos enemigos de los dioses, eres el guardián más joven del purgatorio primordial, encargado de matar a los viejos rivales de Odín y poner orden en Valheim. Tus pruebas comienzan en el pacífico centro desarmado de Valheim, pero los dioses recompensan a los valientes y la gloria te aguarda. Aventúrate a través de bosques imponentes y montañas cubiertas de nieve, explora y recolecta materiales valiosos para crear armas más letales, armaduras más resistentes, fortalezas vikingas y puestos de avanzadilla. Construye un poderoso barco y navega por los grandes océanos en busca de tierras exóticas... pero ten cuidado de navegar demasiado lejos...",
+        "reseñas": [
+            {
+                "reseña1": [
+                    "“Gráficamente vistoso sin ser exogente y con un a fluida jugabilidad que promete horas y horas de aventura y un futuro prometedor.” 8/10 –",
+                    "Portal Geek"
+                ],
+                "reseña2": [
+                    "“Una experiencia divertidísima en solitario, que encuentra su mejor versión en la faceta cooperativa.” 8/10 –",
+                    "Solo Jugadores"
+                ],
+                "reseña3": [
+                    "“El juego sigue en desarrollo, así que con el tiempo irá mejorando en algunas cosas, pero actualmente ya se siente como un juego completo” 7.5/10 –",
+                    "Back to the Games"
+                ]
+            }
+        ],
+        "idiomasDisponibles": [
+            {
+                "idioma": "Español Latinoamerica",
+                "interfaz": false,
+                "voces": false,
+                "subtitulos": false
+            },
+            {
+                "idioma": "Inglés",
+                "interfaz": true,
+                "voces": true,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Francés",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Alemán",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            },
+            {
+                "idioma": "Italiano",
+                "interfaz": true,
+                "voces": false,
+                "subtitulos": true
+            }
+        ],
+        "requisitosSistemaMínimos": [
+            {
+                "tipo": "MÍNIMOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    "2.6 GHz Quad Core o similares"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "8 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "1 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    " GeForce GTX 950 o Radeon HD 7970"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "requisitosSistemaRecomendados": [
+            {
+                "tipo": "RECOMENDADOS:",
+                "dato": "Requiere un procesador y un sistema operativo de 64 bits",
+                "SO": [
+                    "SO:",
+                    "Windows 7 o posteriores"
+                ],
+                "Procesador": [
+                    "Procesador:",
+                    " i5 3GHz o Ryzen 5 3GHzs"
+                ],
+                "Memoria": [
+                    "Memoria:",
+                    "16 GB de RAM"
+                ],
+                "Almacenamiento": [
+                    "Almacenamiento:",
+                    "1 GB de espacio disponible"
+                ],
+                "Gráficos": [
+                    "Gráficos:",
+                    "GeForce GTX 1060 or Radeon RX 580"
+                ],
+                "Tarjeta de sonido": [
+                    "Tarjeta de sonido:",
+                    "DirectX 11 Compatible"
+                ]
+            }
+        ],
+        "videoPath": [
+            "../imagenes/Videos/Valheim.mp4"
+        ],
+        "imgPath": [
+            "../imagenes/Valheim.jpg"
+        ]
+    },
+]
