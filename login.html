@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Login basico</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="loginObfuscator.js"></script>
 	<link rel="stylesheet" href="./css/estiloLogin.css"> 
 	<link rel="stylesheet" href="./css/boostrap.css">
@@ -63,11 +64,11 @@
 	  <h2>Inicio de Sesión</h2>
 	  <form action="">
 		  <div class="inputcaja">
-			  <input type="text" name="usuario" required="" id="usuario">
-			  <label for="">Usuario</label>
+			  <input  type="text" class="form-control" id="username" placeholder="name@example.com">
+			  <label for="">usuario</label>
 		  </div>
 		  <div class="inputcaja">
-			<input type="password" name="pass" required="" id="pass">
+			<input type="password" class="form-control" id="password" placeholder="Password">
 			<label for="">Contraseña</label>
 		  </div>
 		  <input type="button" value="Ingresar" onclick="validar()">

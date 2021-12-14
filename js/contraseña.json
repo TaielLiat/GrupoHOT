@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "idUser": 1,
+            "user": "Admin",
+            "password": "7bd8bb967893dcbcf611f592bf20e8ca0911829889308500f2d913123e1c062c",
+            "perfil": "admin",
+            "status": true
+        },
+        {
+            "idUser": 2,
+            "user": "Empleado",
+            "password": "7a8c8115e44ae180abc5ded838c66587d539a48fdf068bd95d9927b24fbea2f5",
+            "perfil": "cadete",
+            "status": true
+        }
+    ]
+}
